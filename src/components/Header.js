@@ -1,5 +1,5 @@
 import React from "react";
-import { withRouter, Link, Route } from "react-router-dom";
+import { Link, scroller } from "react-scroll";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import {
   AppBar,
@@ -10,11 +10,11 @@ import {
   MenuItem,
   Button,
   useMediaQuery,
-  Tabs,
   Tab,
+  Tabs,
 } from "@material-ui/core";
 
-import { Menu as MenuIcon } from "@material-ui/icons";
+import { Menu as MenuIcon, TableChartRounded } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -47,27 +47,30 @@ const Header = (props) => {
     setAnchorEl(event.currentTarget);
   };
 
-  const handleMenuClick = (pageURL) => {
-    history.push(pageURL);
-    setAnchorEl(null);
-  };
-
   const handleButtonClick = (pageURL) => {
     history.push(pageURL);
   };
 
+  const scrollToSection = (section) => {
+    scroller.scrollTo(section, {
+      duration: 500,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
+
   const menuItems = [
     {
-      menuTitle: "Home",
-      pageURL: "/",
-    },
-    {
-      menuTitle: "Contact",
-      pageURL: "/contact",
-    },
-    {
       menuTitle: "About",
-      pageURL: "/about",
+      sectionID: "About",
+    },
+    {
+      menuTitle: "Affiliations",
+      sectionID: "Affiliations",
+    },
+    {
+      menuTitle: "Leadership",
+      sectionID: "Leadership",
     },
   ];
 
@@ -105,36 +108,48 @@ const Header = (props) => {
                 onClose={() => setAnchorEl(null)}
               >
                 {menuItems.map((menuItem) => {
-                  const { menuTitle, pageURL } = menuItem;
+                  const { menuTitle, sectionID } = menuItem;
                   return (
-                    <MenuItem onClick={() => handleMenuClick(pageURL)}>
-                      {menuTitle}
+                    <MenuItem>
+                      <Link
+                        activeClass="active"
+                        to={sectionID}
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                      >
+                        {menuTitle}
+                      </Link>
                     </MenuItem>
                   );
                 })}
               </Menu>
             </>
           ) : (
-            <Route
-              path="/"
-              render={({ location }) => (
-                <Tabs value={location.pathname}>
-                  <Tab label="About" value="/" component={Link} to="/" />
-                  <Tab
-                    value="/affiliations"
-                    label="Affiliations"
-                    component={Link}
-                    to="/affiliations"
-                  />
-                  <Tab
-                    value="/leadership"
-                    label="Leadership"
-                    component={Link}
-                    to="/leadership"
-                  />
-                </Tabs>
-              )}
-            />
+            menuItems.map((menuItem) => {
+              const { menuTitle, sectionID } = menuItem;
+              return (
+                <Button onClick={() => scrollToSection(sectionID)}>
+                  {menuTitle}
+                </Button>
+              );
+            })
+
+            // <Tabs>
+            //   <Tab label="About" value="/" component={Link} to="/" />
+            //   <Tab
+            //     value="/affiliations"
+            //     label="Affiliations"
+            //     component={Link}
+            //     to="/affiliations"
+            //   />
+            //   <Tab
+            //     value="/leadership"
+            //     label="Leadership"
+            //     component={Link}
+            //     to="/leadership"
+            //   />
+            // </Tabs>
           )}
         </Toolbar>
       </AppBar>
@@ -142,4 +157,4 @@ const Header = (props) => {
   );
 };
 
-export default withRouter(Header);
+export default Header;

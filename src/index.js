@@ -6,9 +6,10 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import App from "./components/App";
 
 ReactDOM.render(
-  <Router>
-    <CssBaseline />
+  // <Router>
+  <CssBaseline>
     <App />
-  </Router>,
+  </CssBaseline>,
+  // </Router>,
   document.querySelector("#root")
 );

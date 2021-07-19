@@ -15,7 +15,8 @@ export default function App() {
     <Paper>
       <ThemeProvider theme={darkTheme}>
         <Header />
-        <Switch>
+        <Leadership />
+        {/* <Switch>
           <Route
             exact
             path="/contact"
@@ -28,7 +29,7 @@ export default function App() {
             render={(props) => <Leadership {...props} />}
           />
           <Route exact from="/" render={(props) => <Home {...props} />} />
-        </Switch>
+        </Switch> */}
       </ThemeProvider>
     </Paper>
   );
