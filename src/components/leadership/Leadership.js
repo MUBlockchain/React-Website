@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import { Typography, Divider, Grid } from "@material-ui/core";
 
 import ProfileCard from "./ProfileCard";

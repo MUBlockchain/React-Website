@@ -8,13 +8,11 @@ import {
   IconButton,
   Menu,
   MenuItem,
-  Button,
   useMediaQuery,
   Tab,
-  Tabs,
 } from "@material-ui/core";
 
-import { Menu as MenuIcon, TableChartRounded } from "@material-ui/icons";
+import { Menu as MenuIcon } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -36,7 +34,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Header = (props) => {
-  const { history } = props;
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -45,10 +42,6 @@ const Header = (props) => {
 
   const handleMenu = (event) => {
     setAnchorEl(event.currentTarget);
-  };
-
-  const handleButtonClick = (pageURL) => {
-    history.push(pageURL);
   };
 
   const scrollToSection = (section) => {
@@ -107,10 +100,10 @@ const Header = (props) => {
                 open={open}
                 onClose={() => setAnchorEl(null)}
               >
-                {menuItems.map((menuItem) => {
+                {menuItems.map((menuItem, index) => {
                   const { menuTitle, sectionID } = menuItem;
                   return (
-                    <MenuItem>
+                    <MenuItem key={index}>
                       <Link
                         activeClass="active"
                         to={sectionID}
@@ -126,30 +119,16 @@ const Header = (props) => {
               </Menu>
             </>
           ) : (
-            menuItems.map((menuItem) => {
+            menuItems.map((menuItem, index) => {
               const { menuTitle, sectionID } = menuItem;
               return (
-                <Button onClick={() => scrollToSection(sectionID)}>
-                  {menuTitle}
-                </Button>
+                <Tab
+                  key={index}
+                  onClick={() => scrollToSection(sectionID)}
+                  label={menuTitle}
+                />
               );
             })
-
-            // <Tabs>
-            //   <Tab label="About" value="/" component={Link} to="/" />
-            //   <Tab
-            //     value="/affiliations"
-            //     label="Affiliations"
-            //     component={Link}
-            //     to="/affiliations"
-            //   />
-            //   <Tab
-            //     value="/leadership"
-            //     label="Leadership"
-            //     component={Link}
-            //     to="/leadership"
-            //   />
-            // </Tabs>
           )}
         </Toolbar>
       </AppBar>
