@@ -1,15 +1,20 @@
 import React from "react";
+import { withRouter, Link, Route } from "react-router-dom";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
-import IconButton from "@material-ui/core/IconButton";
-import MenuIcon from "@material-ui/icons/Menu";
-import MenuItem from "@material-ui/core/MenuItem";
-import Menu from "@material-ui/core/Menu";
-import Button from "@material-ui/core/Button";
-import useMediaQuery from "@material-ui/core/useMediaQuery";
-import { withRouter } from "react-router-dom";
+import {
+  AppBar,
+  Toolbar,
+  Typography,
+  IconButton,
+  Menu,
+  MenuItem,
+  Button,
+  useMediaQuery,
+  Tabs,
+  Tab,
+} from "@material-ui/core";
+
+import { Menu as MenuIcon } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -71,7 +76,7 @@ const Header = (props) => {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Photos
+            MUBC
           </Typography>
           {isMobile ? (
             <>
@@ -110,26 +115,26 @@ const Header = (props) => {
               </Menu>
             </>
           ) : (
-            <div className={classes.headerOptions}>
-              <Button
-                variant="contained"
-                onClick={() => handleButtonClick("/")}
-              >
-                HOME
-              </Button>
-              <Button
-                variant="contained"
-                onClick={() => handleButtonClick("/contact")}
-              >
-                CONTACT
-              </Button>
-              <Button
-                variant="contained"
-                onClick={() => handleButtonClick("/about")}
-              >
-                ABOUT
-              </Button>
-            </div>
+            <Route
+              path="/"
+              render={({ location }) => (
+                <Tabs value={location.pathname}>
+                  <Tab label="About" value="/" component={Link} to="/" />
+                  <Tab
+                    value="/affiliations"
+                    label="Affiliations"
+                    component={Link}
+                    to="/affiliations"
+                  />
+                  <Tab
+                    value="/leadership"
+                    label="Leadership"
+                    component={Link}
+                    to="/leadership"
+                  />
+                </Tabs>
+              )}
+            />
           )}
         </Toolbar>
       </AppBar>
