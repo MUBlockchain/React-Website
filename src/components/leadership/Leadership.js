@@ -10,7 +10,7 @@ import bhuvanShahPicture from "./images/Bhuvan_Shah.jpg";
 const Leadership = () => {
   return (
     <div id="Leadership">
-      <Grid container>
+      <Grid item container>
         <Grid item xs={1} />
         <Grid item container alignContent="center" direction="column" xs={10}>
           <Grid container justifyContent="center">

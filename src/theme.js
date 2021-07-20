@@ -3,14 +3,14 @@ import { responsiveFontSizes, createTheme } from "@material-ui/core/styles";
 let darkTheme = createTheme({
   palette: {
     primary: {
-      main: "#e57373",
-      light: "#ffa4a2",
-      dark: "#af4448",
+      main: "#c62828",
+      light: "#ff5f52",
+      dark: "#8e0000",
     },
     secondary: {
-      main: "#73e5e5",
-      light: "#a9ffff",
-      dark: "#39b3b3",
+      main: "#ffffff",
+      light: "#ffffff",
+      dark: "#cccccc",
     },
     type: "dark",
   },
@@ -21,14 +21,14 @@ darkTheme = responsiveFontSizes(darkTheme);
 let lightTheme = createTheme({
   palette: {
     primary: {
-      main: "#185adb",
-      light: "#6786ff",
-      dark: "#0032a8",
+      main: "#c62828",
+      light: "#ff5f52",
+      dark: "#8e0000",
     },
     secondary: {
-      main: "#fdd835",
-      light: "#ffff6b",
-      dark: "#c6a700",
+      main: "#212121",
+      light: "#484848",
+      dark: "#000000",
     },
   },
 });

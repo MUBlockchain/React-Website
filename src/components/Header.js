@@ -12,7 +12,7 @@ import {
   Tab,
 } from "@material-ui/core";
 
-import { Menu as MenuIcon } from "@material-ui/icons";
+import { Menu as MenuIcon, Brightness4, Brightness7 } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -39,6 +39,7 @@ const Header = (props) => {
   const open = Boolean(anchorEl);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("xs"));
+  const { darkMode, setDarkMode } = props;
 
   const handleMenu = (event) => {
     setAnchorEl(event.currentTarget);
@@ -134,6 +135,9 @@ const Header = (props) => {
               );
             })
           )}
+          <IconButton color="secondary" onClick={() => setDarkMode(!darkMode)}>
+            {darkMode ? <Brightness7 /> : <Brightness4 />}
+          </IconButton>
         </Toolbar>
       </AppBar>
     </div>

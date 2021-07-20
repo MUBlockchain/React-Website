@@ -1,31 +1,38 @@
 import AwesomeSlider from "react-awesome-slider";
+import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import "react-awesome-slider/dist/styles.css";
 
-import image1 from "../leadership/images/Ryan_Schuerkamp.jpg";
-import image2 from "../leadership/images/Alex_Stan.jpg";
+import presentationImage from "./images/presentation.jpg";
+import blockathonTableImage from "./images/blockathonTable.jpg";
 
 const useStyles = makeStyles((theme) => ({
   gallery: {
     height: "80%",
-    marginTop: 20,
+    marginTop: "3%",
   },
 }));
 
 const ImageGallery = () => {
   const classes = useStyles();
   return (
-    <AwesomeSlider
-      className={classes.gallery}
-      media={[
-        {
-          source: image1,
-        },
-        {
-          source: image2,
-        },
-      ]}
-    />
+    <Grid item container>
+      <Grid item xs={1} />
+      <Grid item xs={10}>
+        <AwesomeSlider
+          className={classes.gallery}
+          media={[
+            {
+              source: presentationImage,
+            },
+            {
+              source: blockathonTableImage,
+            },
+          ]}
+        />
+      </Grid>
+      <Grid item xs={1} />
+    </Grid>
   );
 };
 
