@@ -13,7 +13,8 @@ const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 300,
     minWidth: 225,
-    marginRight: 30,
+    marginRight: 15,
+    marginLeft: 15,
     marginBottom: 30,
   },
   profilePicture: {

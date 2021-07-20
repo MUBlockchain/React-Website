@@ -1,5 +1,5 @@
 import AwesomeSlider from "react-awesome-slider";
-import { Grid } from "@material-ui/core";
+import { Grid, Divider } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import "react-awesome-slider/dist/styles.css";
 
@@ -31,6 +31,7 @@ const ImageGallery = () => {
           ]}
         />
       </Grid>
+      <Divider style={{ width: "100%", marginTop: 25, marginBottom: 10 }} />
       <Grid item xs={1} />
     </Grid>
   );
