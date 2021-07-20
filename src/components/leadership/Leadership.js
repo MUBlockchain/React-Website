@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Grid } from "@material-ui/core";
+import { Typography, Grid, Divider } from "@material-ui/core";
 
 import ProfileCard from "./ProfileCard";
 import alexStanPicture from "./images/Alex_Stan.jpg";
@@ -10,9 +10,9 @@ import bhuvanShahPicture from "./images/Bhuvan_Shah.jpg";
 const Leadership = () => {
   return (
     <div id="Leadership">
-      <Grid item container>
+      <Grid container>
         <Grid item xs={1} />
-        <Grid item container alignContent="center" direction="column" xs={10}>
+        <Grid item container xs={10}>
           <Grid container justifyContent="center">
             <Typography style={{ marginBottom: 10 }} variant="h1">
               Leadership
@@ -38,6 +38,9 @@ const Leadership = () => {
               profilePicture={bhuvanShahPicture}
               title="Bhuvan Shah - VP of Technical Development"
               description="Bhuvan Shah is a Junior Software Engineering major and Business Analytics minor. As a VP of Technical Development, he is responsible for mentoring others at hackathons and similar events on the basics of coding and building blockchain networks. He enjoys playing soccer and chess. Bhuvan aims to learn more about blockchain technology and hopes to spread awareness about this disruptive technology."
+            />
+            <Divider
+              style={{ width: "100%", marginTop: 25, marginBottom: 10 }}
             />
           </Grid>
         </Grid>
