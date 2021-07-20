@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, scroller } from "react-scroll";
+import { scroller } from "react-scroll";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import {
   AppBar,
@@ -51,6 +51,11 @@ const Header = (props) => {
       delay: 0,
       smooth: "easeInOutQuart",
     });
+  };
+
+  const handleClickAndClose = (sectionID) => {
+    setAnchorEl(null);
+    scrollToSection(sectionID);
   };
 
   const menuItems = [
@@ -108,16 +113,11 @@ const Header = (props) => {
                 {menuItems.map((menuItem, index) => {
                   const { menuTitle, sectionID } = menuItem;
                   return (
-                    <MenuItem key={index}>
-                      <Link
-                        activeClass="active"
-                        to={sectionID}
-                        spy={true}
-                        smooth={true}
-                        duration={500}
-                      >
-                        {menuTitle}
-                      </Link>
+                    <MenuItem
+                      onClick={() => handleClickAndClose(sectionID)}
+                      key={index}
+                    >
+                      {menuTitle}
                     </MenuItem>
                   );
                 })}

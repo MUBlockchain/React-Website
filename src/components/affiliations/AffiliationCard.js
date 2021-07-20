@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Card,
-  CardHeader,
-  CardMedia,
-  CardContent,
-  CardActionArea,
-  Typography,
-  Link,
-} from "@material-ui/core";
+import { Card, CardMedia, CardActionArea } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
