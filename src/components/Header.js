@@ -58,12 +58,16 @@ const Header = (props) => {
       sectionID: "About",
     },
     {
+      menuTitle: "Leadership",
+      sectionID: "Leadership",
+    },
+    {
       menuTitle: "Affiliations",
       sectionID: "Affiliations",
     },
     {
-      menuTitle: "Leadership",
-      sectionID: "Leadership",
+      menuTitle: "Schedule",
+      sectionID: "Contact Us",
     },
   ];
 

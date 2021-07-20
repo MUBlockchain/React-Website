@@ -11,7 +11,7 @@ import {
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 345,
+    maxWidth: 300,
     minWidth: 225,
     marginRight: 30,
     marginBottom: 30,

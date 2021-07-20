@@ -13,11 +13,13 @@ const Leadership = () => {
       <Grid container>
         <Grid item xs={1} />
         <Grid item container alignContent="center" direction="column" xs={10}>
-          <Typography style={{ marginBottom: 10 }} variant="h1">
-            Leadership
-          </Typography>
+          <Grid container justifyContent="center">
+            <Typography style={{ marginBottom: 10 }} variant="h1">
+              Leadership
+            </Typography>
+          </Grid>
           <Divider style={{ marginBottom: 10 }} />
-          <Grid container>
+          <Grid container justifyContent="center">
             <ProfileCard
               profilePicture={alexStanPicture}
               title="Alex Stan - President"
