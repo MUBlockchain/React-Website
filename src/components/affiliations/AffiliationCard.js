@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardMedia, CardActionArea } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   root: {
     minWidth: 325,
     minHeight: 325,

@@ -4,7 +4,10 @@ import { makeStyles } from "@material-ui/core/styles";
 import "react-awesome-slider/dist/styles.css";
 
 import presentationImage from "./images/presentation.jpg";
-import blockathonTableImage from "./images/blockathonTable.jpg";
+import groupImage from "./images/group.jpg";
+import firstTShirtImage from "./images/tShirt1.jpg";
+import secondTShirtImage from "./images/tShirt2.jpg";
+import codingImage from "./images/coding.jpg";
 
 const useStyles = makeStyles((theme) => ({
   gallery: {
@@ -23,10 +26,19 @@ const ImageGallery = () => {
           className={classes.gallery}
           media={[
             {
+              source: groupImage,
+            },
+            {
               source: presentationImage,
             },
             {
-              source: blockathonTableImage,
+              source: firstTShirtImage,
+            },
+            {
+              source: codingImage,
+            },
+            {
+              source: secondTShirtImage,
             },
           ]}
         />
