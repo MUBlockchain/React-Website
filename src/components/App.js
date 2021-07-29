@@ -7,6 +7,7 @@ import ImageGallery from "./imageGallery/ImageGallery";
 import About from "./About";
 import Leadership from "./leadership/Leadership";
 import Affiliations from "./affiliations/Affiliations";
+import Course from "./course/Course";
 import { darkTheme, lightTheme } from "./../theme";
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
             <About />
             <Leadership />
             <Affiliations />
+            <Course />
           </Grid>
         </ThemeProvider>
       </Paper>

@@ -14,6 +14,8 @@ import {
 
 import { Menu as MenuIcon, Brightness4, Brightness7 } from "@material-ui/icons";
 
+import logo from "./logo.jpg";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -72,8 +74,8 @@ const Header = (props) => {
       sectionID: "Affiliations",
     },
     {
-      menuTitle: "Schedule",
-      sectionID: "Contact Us",
+      menuTitle: "Course",
+      sectionID: "Course",
     },
   ];
 
@@ -81,9 +83,7 @@ const Header = (props) => {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          {/* <Typography variant="h6" className={classes.title}>
-            MUBC
-          </Typography> */}
+          <img src={logo} width="auto" height="100" alt="MUBC Logo" />
           {isMobile ? (
             <>
               <IconButton
@@ -130,7 +130,7 @@ const Header = (props) => {
                 <Tab
                   key={index}
                   onClick={() => scrollToSection(sectionID)}
-                  label={menuTitle}
+                  label={<Typography variant="h5">{menuTitle}</Typography>}
                 />
               );
             })

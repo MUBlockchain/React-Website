@@ -1,0 +1,33 @@
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import { Card, CardContent, Typography, CardActions } from "@material-ui/core";
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    maxWidth: 300,
+    minWidth: 300,
+    marginRight: 15,
+    marginLeft: 15,
+    marginBottom: 30,
+  },
+}));
+
+const CourseCard = (props) => {
+  const { title, children, button1, button2 } = props;
+  const classes = useStyles();
+
+  return (
+    <Card raised className={classes.root}>
+      <CardContent>
+        <Typography variant="h5">{title}</Typography>
+        <Typography variant="body1">{children}</Typography>
+        <CardActions style={{ justifyContent: "space-around" }}>
+          {button1}
+          {button2}
+        </CardActions>
+      </CardContent>
+    </Card>
+  );
+};
+
+export default CourseCard;
