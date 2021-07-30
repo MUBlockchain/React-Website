@@ -20,9 +20,6 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
   title: {
     [theme.breakpoints.down("xs")]: {
       flexGrow: 1,
@@ -60,84 +57,106 @@ const Header = (props) => {
     scrollToSection(sectionID);
   };
 
-  const menuItems = [
+  const sections = [
     {
       menuTitle: "About",
       sectionID: "About",
-    },
-    {
-      menuTitle: "Leadership",
-      sectionID: "Leadership",
     },
     {
       menuTitle: "Affiliations",
       sectionID: "Affiliations",
     },
     {
+      menuTitle: "Calendar",
+      sectionID: "Calendar",
+    },
+    {
       menuTitle: "Course",
       sectionID: "Course",
     },
+    {
+      menuTitle: "Crypto Committee",
+      sectionID: "Crypto Committee",
+    },
+    {
+      menuTitle: "Leadership",
+      sectionID: "Leadership",
+    },
+    {
+      menuTitle: "Newsletter",
+      sectionID: "Newsletter",
+    },
   ];
+
+  const tabs = sections.map((menuItem, index) => {
+    const { menuTitle, sectionID } = menuItem;
+    return (
+      <Tab
+        key={index}
+        onClick={() => scrollToSection(sectionID)}
+        label={<Typography variant="body1">{menuTitle}</Typography>}
+      />
+    );
+  });
+
+  const menuItems = sections.map((menuItem, index) => {
+    const { menuTitle, sectionID } = menuItem;
+    return (
+      <MenuItem onClick={() => handleClickAndClose(sectionID)} key={index}>
+        {menuTitle}
+      </MenuItem>
+    );
+  });
+
+  const darkLightModeButton = (
+    <IconButton color="secondary" onClick={() => setDarkMode(!darkMode)}>
+      {darkMode ? <Brightness7 /> : <Brightness4 />}
+    </IconButton>
+  );
 
   return (
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <img src={logo} width="auto" height="100" alt="MUBC Logo" />
           {isMobile ? (
             <>
-              <IconButton
-                edge="start"
-                className={classes.menuButton}
-                color="inherit"
-                aria-label="menu"
-                onClick={handleMenu}
-              >
-                <MenuIcon />
-              </IconButton>
-              <Menu
-                id="menu-appbar"
-                anchorEl={anchorEl}
-                anchorOrigin={{
-                  vertical: "top",
-                  horizontal: "right",
-                }}
-                keepMounted
-                transformOrigin={{
-                  vertical: "top",
-                  horizontal: "right",
-                }}
-                open={open}
-                onClose={() => setAnchorEl(null)}
-              >
-                {menuItems.map((menuItem, index) => {
-                  const { menuTitle, sectionID } = menuItem;
-                  return (
-                    <MenuItem
-                      onClick={() => handleClickAndClose(sectionID)}
-                      key={index}
-                    >
-                      {menuTitle}
-                    </MenuItem>
-                  );
-                })}
-              </Menu>
+              <img src={logo} width="auto" height="100" alt="MUBC Logo" />
+              <div style={{ marginLeft: "auto" }}>
+                <IconButton
+                  edge="start"
+                  color="inherit"
+                  aria-label="menu"
+                  onClick={handleMenu}
+                >
+                  <MenuIcon />
+                </IconButton>
+                <Menu
+                  id="menu-appbar"
+                  anchorEl={anchorEl}
+                  anchorOrigin={{
+                    vertical: "top",
+                    horizontal: "right",
+                  }}
+                  keepMounted
+                  transformOrigin={{
+                    vertical: "top",
+                    horizontal: "right",
+                  }}
+                  open={open}
+                  onClose={() => setAnchorEl(null)}
+                >
+                  {menuItems}
+                </Menu>
+                {darkLightModeButton}
+              </div>
             </>
           ) : (
-            menuItems.map((menuItem, index) => {
-              const { menuTitle, sectionID } = menuItem;
-              return (
-                <Tab
-                  key={index}
-                  onClick={() => scrollToSection(sectionID)}
-                  label={<Typography variant="h5">{menuTitle}</Typography>}
-                />
-              );
-            })
+            <>
+              <img src={logo} width="auto" height="100" alt="MUBC Logo" />
+              {tabs}
+              {darkLightModeButton}
+            </>
           )}
-          <IconButton color="secondary" onClick={() => setDarkMode(!darkMode)}>
-            {darkMode ? <Brightness7 /> : <Brightness4 />}
-          </IconButton>
         </Toolbar>
       </AppBar>
     </div>

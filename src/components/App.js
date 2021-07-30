@@ -23,9 +23,9 @@ export default function App() {
             <ImageGallery />
             <About />
             <Calendar />
+            <Course />
             <Leadership />
             <Affiliations />
-            <Course />
           </Grid>
         </ThemeProvider>
       </Paper>
