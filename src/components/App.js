@@ -8,6 +8,7 @@ import About from "./About";
 import Leadership from "./leadership/Leadership";
 import Affiliations from "./affiliations/Affiliations";
 import Course from "./course/Course";
+import Calendar from "./calendar/Calendar";
 import { darkTheme, lightTheme } from "./../theme";
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
             <Header setDarkMode={setDarkMode} darkMode={darkMode} />
             <ImageGallery />
             <About />
+            <Calendar />
             <Leadership />
             <Affiliations />
             <Course />

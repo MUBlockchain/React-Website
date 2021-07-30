@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const CourseCard = (props) => {
-  const { title, children, button1, button2 } = props;
+  const { title, children, buttons } = props;
   const classes = useStyles();
 
   return (
@@ -22,8 +22,7 @@ const CourseCard = (props) => {
         <Typography variant="h5">{title}</Typography>
         <Typography variant="body1">{children}</Typography>
         <CardActions style={{ justifyContent: "space-around" }}>
-          {button1}
-          {button2}
+          {buttons}
         </CardActions>
       </CardContent>
     </Card>
