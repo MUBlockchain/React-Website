@@ -18,12 +18,66 @@ const Calendar = () => {
             initialView="dayGridMonth"
             events={[
               {
-                title: "event 1",
-                start: "2021-07-01T14:30:00",
-                end: "2021-07-01T15:30:00",
-                url: "http://google.com",
+                title: "MegaFair",
+                start: "2021-08-29",
               },
-              { title: "event 2", date: "2021-07-07" },
+              {
+                title: "Meet the B-Orgs",
+                start: "2021-08-31T18:00:00",
+              },
+              {
+                title: "Are NFTs the Next Tulip Mania?",
+                start: "2021-09-08T19:00:00",
+              },
+              {
+                title: "Course Week 1: Blockchain basics",
+                start: "2021-09-15T18:00:00",
+              },
+              {
+                title: "Bitcoin vs Ethereum: An origin story",
+                start: "2021-09-15T19:00:00",
+              },
+              {
+                title: "Week 2: Blockchain Networks",
+                start: "2021-09-22T18:00:00",
+              },
+              {
+                title: "The Institutional Risks of Managing Digital Assets",
+                start: "2021-09-22T19:00:00",
+              },
+              {
+                title: "Week 3: Blockchain Security",
+                start: "2021-09-29T18:00:00",
+              },
+              {
+                title: "Week 4: Smart Contracts",
+                start: "2021-10-06T18:00:00",
+              },
+              {
+                title:
+                  "Week 5: Decentralized Autonomous Organizations and Governance",
+                start: "2021-10-13T18:00:00",
+              },
+              {
+                title: "Week 6: Tokens and NFTs",
+                start: "2021-10-20T18:00:00",
+              },
+              {
+                title: "Week 7: Token Economics",
+                start: "2021-10-27T18:00:00",
+              },
+              {
+                title: "Week 8: Bitcoin, Ethereum, Altcoins, and Stablecoins",
+                start: "2021-11-03T18:00:00",
+              },
+              {
+                title: "Week 9: Decentralized Finance (Defi)",
+                start: "2021-11-10T18:00:00",
+              },
+              {
+                title: "Week 10: Blockchain Use Cases",
+                start: "2021-11-17T18:00:00",
+              },
             ]}
             eventClick={function (info) {
               info.jsEvent.preventDefault(); // don't let the browser navigate
