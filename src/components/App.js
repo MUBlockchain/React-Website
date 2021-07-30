@@ -9,6 +9,7 @@ import Leadership from "./leadership/Leadership";
 import Affiliations from "./affiliations/Affiliations";
 import Course from "./course/Course";
 import Calendar from "./calendar/Calendar";
+import Newsletter from "./Newsletter";
 import { darkTheme, lightTheme } from "./../theme";
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
             <About />
             <Calendar />
             <Course />
+            <Newsletter />
             <Leadership />
             <Affiliations />
           </Grid>
