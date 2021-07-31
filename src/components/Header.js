@@ -149,8 +149,8 @@ const Header = (props) => {
                   onClose={() => setAnchorEl(null)}
                 >
                   {menuItems}
+                  {setDarkMode(false)}
                 </Menu>
-                {darkLightModeButton}
               </div>
             </>
           ) : (

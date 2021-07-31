@@ -101,8 +101,6 @@ const Calendar = (props) => {
           </Hidden>
           <Hidden smUp={true}>
             <FullCalendar
-              dayHeaderClassNames="fc-widget-header"
-              dayCellClassNames="fc-widget-header"
               height="auto"
               plugins={[listPlugin]}
               initialView={"listMonth"}

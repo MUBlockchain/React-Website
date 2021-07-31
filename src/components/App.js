@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ThemeProvider } from "@material-ui/core/styles";
 import { Paper, Grid, useMediaQuery } from "@material-ui/core";
+import { useTheme } from "@material-ui/core/styles";
 
 import Header from "./Header";
 import ImageGallery from "./imageGallery/ImageGallery";
@@ -15,8 +16,10 @@ import Footer from "./Footer";
 import { darkTheme, lightTheme } from "./../theme";
 
 export default function App() {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("xs"));
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
-  const [darkMode, setDarkMode] = useState(prefersDarkMode);
+  const [darkMode, setDarkMode] = useState(isMobile ? false : prefersDarkMode);
   return (
     <Grid container>
       <Paper>
