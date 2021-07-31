@@ -2,6 +2,11 @@
   "name": "react-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://MUBlockchain.github.io/React-Website",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MUBlockchain/React-Website"
+  },
   "dependencies": {
     "@fullcalendar/daygrid": "^5.9.0",
     "@fullcalendar/list": "^5.9.0",
@@ -25,7 +30,9 @@
     "start": "react-app-rewired start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -47,6 +54,7 @@
   },
   "devDependencies": {
     "customize-cra": "^1.0.0",
+    "gh-pages": "^3.2.3",
     "react-app-rewired": "^2.1.8"
   }
 }

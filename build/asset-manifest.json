@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/React-Website/static/css/main.956ed690.chunk.css",
+    "main.js": "/React-Website/static/js/main.04deefa7.chunk.js",
+    "main.js.map": "/React-Website/static/js/main.04deefa7.chunk.js.map",
+    "runtime-main.js": "/React-Website/static/js/runtime-main.d60dbb2f.js",
+    "runtime-main.js.map": "/React-Website/static/js/runtime-main.d60dbb2f.js.map",
+    "static/css/2.7d1cbf37.chunk.css": "/React-Website/static/css/2.7d1cbf37.chunk.css",
+    "static/js/2.78a95c08.chunk.js": "/React-Website/static/js/2.78a95c08.chunk.js",
+    "static/js/2.78a95c08.chunk.js.map": "/React-Website/static/js/2.78a95c08.chunk.js.map",
+    "index.html": "/React-Website/index.html",
+    "static/css/2.7d1cbf37.chunk.css.map": "/React-Website/static/css/2.7d1cbf37.chunk.css.map",
+    "static/css/main.956ed690.chunk.css.map": "/React-Website/static/css/main.956ed690.chunk.css.map",
+    "static/js/2.78a95c08.chunk.js.LICENSE.txt": "/React-Website/static/js/2.78a95c08.chunk.js.LICENSE.txt",
+    "static/media/Alex_Stan.ec776c72.jpg": "/React-Website/static/media/Alex_Stan.ec776c72.jpg",
+    "static/media/BEN_logo.d135c43e.png": "/React-Website/static/media/BEN_logo.d135c43e.png",
+    "static/media/Bhuvan_Shah.010ae7b0.jpg": "/React-Website/static/media/Bhuvan_Shah.010ae7b0.jpg",
+    "static/media/Derek_Daniels.85c57d23.jpg": "/React-Website/static/media/Derek_Daniels.85c57d23.jpg",
+    "static/media/EY_logo.570845ef.png": "/React-Website/static/media/EY_logo.570845ef.png",
+    "static/media/FSB_logo.4715e0a1.png": "/React-Website/static/media/FSB_logo.4715e0a1.png",
+    "static/media/GBBC_logo.02f1bef5.png": "/React-Website/static/media/GBBC_logo.02f1bef5.png",
+    "static/media/Jack_Lyons.e8704616.jpg": "/React-Website/static/media/Jack_Lyons.e8704616.jpg",
+    "static/media/Josiah_Putrich.b489b8d3.jpg": "/React-Website/static/media/Josiah_Putrich.b489b8d3.jpg",
+    "static/media/Lance_Helton.dea3fd5b.jpg": "/React-Website/static/media/Lance_Helton.dea3fd5b.jpg",
+    "static/media/Madisyn_Erbes.5ad69750.jpg": "/React-Website/static/media/Madisyn_Erbes.5ad69750.jpg",
+    "static/media/Ryan_Schuerkamp.23ed52de.jpg": "/React-Website/static/media/Ryan_Schuerkamp.23ed52de.jpg",
+    "static/media/Sahil_Sapra.91f0948c.jpg": "/React-Website/static/media/Sahil_Sapra.91f0948c.jpg",
+    "static/media/Stephen_Bopst.d57ec681.jpg": "/React-Website/static/media/Stephen_Bopst.d57ec681.jpg",
+    "static/media/coding.05b5bac5.jpg": "/React-Website/static/media/coding.05b5bac5.jpg",
+    "static/media/group.40777ef2.jpg": "/React-Website/static/media/group.40777ef2.jpg",
+    "static/media/logo.5b18a1e0.jpg": "/React-Website/static/media/logo.5b18a1e0.jpg",
+    "static/media/presentation.db1b3c78.jpg": "/React-Website/static/media/presentation.db1b3c78.jpg",
+    "static/media/tShirt1.8765ac1c.jpg": "/React-Website/static/media/tShirt1.8765ac1c.jpg",
+    "static/media/tShirt2.1e772462.jpg": "/React-Website/static/media/tShirt2.1e772462.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d60dbb2f.js",
+    "static/css/2.7d1cbf37.chunk.css",
+    "static/js/2.78a95c08.chunk.js",
+    "static/css/main.956ed690.chunk.css",
+    "static/js/main.04deefa7.chunk.js"
+  ]
+}
