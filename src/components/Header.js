@@ -10,6 +10,7 @@ import {
   MenuItem,
   useMediaQuery,
   Tab,
+  Tooltip,
 } from "@material-ui/core";
 
 import { Menu as MenuIcon, Brightness4, Brightness7 } from "@material-ui/icons";
@@ -109,9 +110,11 @@ const Header = (props) => {
   });
 
   const darkLightModeButton = (
-    <IconButton color="secondary" onClick={() => setDarkMode(!darkMode)}>
-      {darkMode ? <Brightness7 /> : <Brightness4 />}
-    </IconButton>
+    <Tooltip title="Toggle light/dark mode">
+      <IconButton color="secondary" onClick={() => setDarkMode(!darkMode)}>
+        {darkMode ? <Brightness7 /> : <Brightness4 />}
+      </IconButton>
+    </Tooltip>
   );
 
   return (

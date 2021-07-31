@@ -9,6 +9,9 @@ import bhuvanShahPicture from "./images/Bhuvan_Shah.jpg";
 import lanceHeltonPicture from "./images/Lance_Helton.jpg";
 import madisynErbesPicture from "./images/Madisyn_Erbes.jpg";
 import jackLyonsPicture from "./images/Jack_Lyons.jpg";
+import derekDanielsPicture from "./images/Derek_Daniels.jpg";
+import sahilSapraPicture from "./images/Sahil_Sapra.jpg";
+import stephenBopstPicture from "./images/Stephen_Bopst.jpg";
 
 const Leadership = () => {
   return (
@@ -58,12 +61,20 @@ const Leadership = () => {
               description="Jack Lyons is a Junior Economics major. As the VP of Recruitment, Jack hopes to  continue the growth of the club at Miami University. In his second semester with MUBC he is excited to learn more about Blockchain Technology, Along with meeting new people through the events and other activities held by the club this semester."
             />
             <ProfileCard
+              profilePicture={derekDanielsPicture}
+              title="Derek Daniels - VP of Investments"
+              description="Derek Daniels is currently a Senior Finance major and the VP of Investments in the MUBC. He enjoys lifting, fishing, video games, guitar, and investing in crypto, stocks, and real estate. He is passionate about learning and teaching others how to be smart with their money in order to live a happy, healthy life. Derek is a founder and current leader of the cryptocurrency investment fund. He truly believes that blockchain, and more specifically cryptocurrency, will lead the way to major positive change across the world. Through learning how to properly invest and have our money work for us, he aims to create generational wealth that will change our families lives, and the world at large for the better."
+            />
+            <ProfileCard
+              profilePicture={sahilSapraPicture}
+              title="Sahil Sapra - VP of Educational Development"
+              description="Sahil Sapra is a Junior Quantitative Economics major with a minor in Finance and Computer Science. As the VP of Educational Development, he is involved with educating students at Miami University about blockchain and its various use cases. He is very passionate about blockchain technology and shares a very positive outlook for the future of the technology. He is also one of the founding members of MUBC’s student-led cryptocurrency fund."
+            />
+            <ProfileCard
+              profilePicture={stephenBopstPicture}
               title="Stephen Bopst - VP of Finance"
               description="Stephen Bopst is a Senior Finance major in the Farmer School of Business. Over the past year he has become increasingly interested in blockchain technology and it’s future business applications. He is entering his second semester as the VP of Finance for the Blockchain club dealing with club finances and other projects such as weekly newsletters on blockchain information."
             />
-            <ProfileCard title="Derek Daniels - VP of Investments" />
-            <ProfileCard title="Sahil Sapra - VP of Educational Development" />
-            <ProfileCard title="Ahmed Kamel - Web Developer" />
             <Divider
               style={{ width: "100%", marginTop: 25, marginBottom: 10 }}
             />

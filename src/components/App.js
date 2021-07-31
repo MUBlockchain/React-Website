@@ -10,6 +10,8 @@ import Affiliations from "./affiliations/Affiliations";
 import Course from "./course/Course";
 import Calendar from "./calendar/Calendar";
 import Newsletter from "./Newsletter";
+import CryptoCommittee from "./CryptoCommittee";
+import Footer from "./Footer";
 import { darkTheme, lightTheme } from "./../theme";
 
 export default function App() {
@@ -23,11 +25,13 @@ export default function App() {
             <Header setDarkMode={setDarkMode} darkMode={darkMode} />
             <ImageGallery />
             <About />
-            <Calendar />
-            <Course />
-            <Newsletter />
-            <Leadership />
             <Affiliations />
+            <Calendar darkMode={darkMode} />
+            <Course />
+            <CryptoCommittee />
+            <Leadership />
+            <Newsletter />
+            <Footer />
           </Grid>
         </ThemeProvider>
       </Paper>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography, Divider, Button, Link } from "@material-ui/core";
+import { Grid, Typography, Button, Link } from "@material-ui/core";
 
 const Newsletter = () => {
   return (
@@ -36,7 +36,6 @@ const Newsletter = () => {
             </Grid>
             <Grid item sm={1} xl={2} />
           </Grid>
-          <Divider style={{ width: "100%", marginTop: 25, marginBottom: 10 }} />
         </Grid>
         <Grid item xs={1} />
       </Grid>
