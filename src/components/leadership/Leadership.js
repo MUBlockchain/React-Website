@@ -18,12 +18,10 @@ const Leadership = () => {
     <div id="Leadership">
       <Grid container>
         <Grid item xs={1} />
-        <Grid item container xs={10}>
-          <Grid container justifyContent="center">
-            <Typography style={{ marginBottom: 10 }} variant="h1">
-              Leadership
-            </Typography>
-          </Grid>
+        <Grid item container justifyContent="center" xs={10}>
+          <Typography style={{ marginBottom: 10 }} variant="h1">
+            Leadership
+          </Typography>
           <Grid container justifyContent="center">
             <ProfileCard
               profilePicture={alexStanPicture}

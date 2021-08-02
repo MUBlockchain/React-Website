@@ -2,7 +2,6 @@
   "name": "react-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MUBlockchain.github.io/React-Website/",
   "repository": {
     "type": "git",
     "url": "https://github.com/MUBlockchain/React-Website"
@@ -54,7 +53,6 @@
   },
   "devDependencies": {
     "customize-cra": "^1.0.0",
-    "gh-pages": "^3.2.3",
     "react-app-rewired": "^2.1.8"
   }
 }

@@ -1,8 +1,9 @@
 import React from "react";
-import FullCalendar from "@fullcalendar/react"; // must go before plugins
-import dayGridPlugin from "@fullcalendar/daygrid"; // a plugin!
+import FullCalendar from "@fullcalendar/react";
+import dayGridPlugin from "@fullcalendar/daygrid";
 import listPlugin from "@fullcalendar/list";
 import { Grid, Typography, Divider, Hidden } from "@material-ui/core";
+
 import "./style.css";
 
 const Calendar = (props) => {
@@ -71,7 +72,7 @@ const Calendar = (props) => {
   ];
 
   const eventClick = function (info) {
-    info.jsEvent.preventDefault(); // don't let the browser navigate
+    info.jsEvent.preventDefault();
 
     if (info.event.url) {
       window.open(info.event.url);

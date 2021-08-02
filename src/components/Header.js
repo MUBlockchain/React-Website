@@ -12,7 +12,6 @@ import {
   Tab,
   Tooltip,
 } from "@material-ui/core";
-
 import { Menu as MenuIcon, Brightness4, Brightness7 } from "@material-ui/icons";
 
 import logo from "./logo.jpg";

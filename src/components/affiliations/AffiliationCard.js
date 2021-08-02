@@ -20,7 +20,6 @@ const useStyles = makeStyles(() => ({
 
 const AffiliationCard = (props) => {
   const classes = useStyles();
-
   const { image } = props;
 
   return (
