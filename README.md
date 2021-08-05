@@ -1,6 +1,6 @@
 # Miami University Blockchain Club Website
 
-Built with React, React-Scroll, and Material-UI. Deployed using Netlify.
+Built with React, React-Scroll, and Material-UI. Deployed using GitHub Pages.
 
 ## How to Run Locally
 
