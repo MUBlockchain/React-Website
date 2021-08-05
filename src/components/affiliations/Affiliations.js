@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Grid, Divider } from "@material-ui/core";
+import { Typography, Grid, Divider, Box } from "@material-ui/core";
 
 import AffiliationCard from "./AffiliationCard";
 import benLogo from "./images/BEN_logo.png";
@@ -14,7 +14,7 @@ const Affiliations = () => {
         <Grid item xs={1} />
         <Grid item container justifyContent="center" xs={10}>
           <Typography style={{ marginBottom: 10 }} variant="h1">
-            Affiliations
+            <Box fontWeight="fontWeightBold">Affiliations</Box>
           </Typography>
           <Grid container justifyContent="center">
             <AffiliationCard image={benLogo} />

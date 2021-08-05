@@ -2,7 +2,7 @@ import React from "react";
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import listPlugin from "@fullcalendar/list";
-import { Grid, Typography, Divider, Hidden } from "@material-ui/core";
+import { Grid, Typography, Divider, Hidden, Box } from "@material-ui/core";
 
 import "./style.css";
 
@@ -85,7 +85,7 @@ const Calendar = (props) => {
         <Grid item xs={1} />
         <Grid item container justifyContent="center" xs={10}>
           <Typography style={{ marginBottom: 10 }} variant="h1">
-            Calendar
+            <Box fontWeight="fontWeightBold">Calendar</Box>
           </Typography>
           <Hidden xsDown={true}>
             <FullCalendar

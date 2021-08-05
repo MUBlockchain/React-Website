@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography, Button, Link } from "@material-ui/core";
+import { Grid, Typography, Button, Link, Box } from "@material-ui/core";
 
 const Newsletter = () => {
   return (
@@ -10,7 +10,7 @@ const Newsletter = () => {
           <Grid item sm={1} xl={2} />
           <Grid item container justifyContent="center" sm={10} xl={8}>
             <Typography style={{ marginBottom: 10 }} variant="h1">
-              Newsletter
+              <Box fontWeight="fontWeightBold">Newsletter</Box>
             </Typography>
             <Typography variant="body1">
               Want to get the latest news on all things crypto and blockchain?

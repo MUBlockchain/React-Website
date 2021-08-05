@@ -11,7 +11,7 @@ import Affiliations from "./affiliations/Affiliations";
 import Course from "./course/Course";
 import Calendar from "./calendar/Calendar";
 import Newsletter from "./Newsletter";
-import CryptoCommittee from "./CryptoCommittee";
+import CryptoCommittee from "./cryptoCommittee/CryptoCommittee";
 import Footer from "./Footer";
 import { darkTheme, lightTheme } from "./../theme";
 

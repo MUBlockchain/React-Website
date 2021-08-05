@@ -1,6 +1,12 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Card, CardContent, Typography, CardActions } from "@material-ui/core";
+import {
+  Card,
+  CardContent,
+  Typography,
+  CardActions,
+  Box,
+} from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -19,7 +25,9 @@ const CourseCard = (props) => {
   return (
     <Card raised className={classes.root}>
       <CardContent>
-        <Typography variant="h5">{title}</Typography>
+        <Typography variant="h5">
+          <Box fontWeight="fontWeightBold">{title}</Box>
+        </Typography>
         <Typography variant="body1">{children}</Typography>
         <CardActions style={{ justifyContent: "space-around" }}>
           {buttons}

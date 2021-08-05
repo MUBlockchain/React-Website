@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography, Divider } from "@material-ui/core";
+import { Grid, Typography, Divider, Box } from "@material-ui/core";
 
 const About = () => {
   return (
@@ -7,7 +7,9 @@ const About = () => {
       <Grid container>
         <Grid item xs={1} />
         <Grid item container justifyContent="center" xs={10}>
-          <Typography variant="h1">About</Typography>
+          <Typography style={{ marginBottom: 10 }} variant="h1">
+            <Box fontWeight="fontWeightBold">About</Box>
+          </Typography>
           <Grid item container justifyContent="center">
             <Grid item lg={1} xl={2} />
             <Grid item lg={10} xl={8}>

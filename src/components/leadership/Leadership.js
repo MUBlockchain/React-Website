@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Grid, Divider } from "@material-ui/core";
+import { Typography, Grid, Divider, Box } from "@material-ui/core";
 
 import ProfileCard from "./ProfileCard";
 import alexStanPicture from "./images/Alex_Stan.jpg";
@@ -20,7 +20,7 @@ const Leadership = () => {
         <Grid item xs={1} />
         <Grid item container justifyContent="center" xs={10}>
           <Typography style={{ marginBottom: 10 }} variant="h1">
-            Leadership
+            <Box fontWeight="fontWeightBold">Leadership</Box>
           </Typography>
           <Grid container justifyContent="center">
             <ProfileCard

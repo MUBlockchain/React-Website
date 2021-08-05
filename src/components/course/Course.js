@@ -1,5 +1,12 @@
 import React from "react";
-import { Grid, Typography, Divider, Link, Button } from "@material-ui/core";
+import {
+  Grid,
+  Typography,
+  Divider,
+  Link,
+  Button,
+  Box,
+} from "@material-ui/core";
 
 import CourseCard from "./CourseCard";
 
@@ -28,7 +35,9 @@ const Course = () => {
       <Grid container>
         <Grid item xs={1} />
         <Grid item container justifyContent="center" xs={10}>
-          <Typography variant="h1">MUBC 101</Typography>
+          <Typography variant="h1">
+            <Box fontWeight="fontWeightBold">MUBC 101</Box>
+          </Typography>
           <Typography style={{ marginBottom: 10 }} variant="h3">
             Introduction to Blockchain Technology, Cryptocurrencies and Web3
             Fall 2021
