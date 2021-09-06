@@ -1,6 +1,12 @@
 # Miami University Blockchain Club Website
+<<<<<<< HEAD
 
 Built with React, React-Scroll, and Material-UI. Deployed using Netlify.
+=======
+Live at [mubc.io](https://mubc.io)
+
+Built with React, React-Scroll, and Material-UI. Deployed using GitHub Pages.
+>>>>>>> a92d43cd1ccbe4349c67099feea69b04549f2f89
 
 ## How to Run Locally
 
