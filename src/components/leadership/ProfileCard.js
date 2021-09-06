@@ -12,7 +12,7 @@ import {
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 300,
-    minWidth: 225,
+    minWidth: 300,
     marginRight: 15,
     marginLeft: 15,
     marginBottom: 30,
@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
 
 const ProfileCard = (props) => {
   const { profilePicture, title, description } = props;
-  const classes = useStyles(props);
+  const classes = useStyles();
 
   return (
     <Card raised className={classes.root}>
