@@ -18,28 +18,42 @@ const Calendar = (props) => {
       start: "2021-08-31T18:00:00",
     },
     {
-      title: "Are NFTs the Next Tulip Mania?",
+      title: "Info Night",
+      start: "2021-09-08T18:30:00",
+    },
+    {
+      title:
+        "Are NFTs the Next Tulip Mania? with Patrick Young, Account Executive at ChainLink Labs",
       start: "2021-09-08T19:00:00",
+      url: "https://drive.google.com/file/d/1qesjC5bmgq0_VSpbaX2lT4aKrTCSu-C8/view?usp=sharing",
+    },
+    {
+      title:
+        "Regulatory and Cryptocurrency Tax Policy with Congressman Warren Davidson",
+      start: "2021-09-14T18:00:00",
+      url: "https://drive.google.com/file/d/1P1Fvmabg2WuFWSjqxUC1ZxJvDqkzppZL/view?usp=sharing",
     },
     {
       title: "Course Week 1: Blockchain basics",
       start: "2021-09-15T18:00:00",
     },
     {
-      title: "Bitcoin vs Ethereum: An origin story",
-      start: "2021-09-15T19:00:00",
-    },
-    {
       title: "Week 2: Blockchain Networks",
       start: "2021-09-22T18:00:00",
     },
     {
-      title: "The Institutional Risks of Managing Digital Assets",
+      title:
+        "The Institutional Risks of Managing Digital Assets with Bennett Moore, Blockchain and Digital Assets Senior Innovation Architect/Manager at RSM",
       start: "2021-09-22T19:00:00",
     },
     {
       title: "Week 3: Blockchain Security",
       start: "2021-09-29T18:00:00",
+    },
+    {
+      title:
+        "Bitcoin vs Ethereum: An origin story with Andrew Marquardt, Senior Analyst at Accenture",
+      start: "2021-09-29T19:00:00",
     },
     {
       title: "Week 4: Smart Contracts",
@@ -48,6 +62,11 @@ const Calendar = (props) => {
     {
       title: "Week 5: Decentralized Autonomous Organizations and Governance",
       start: "2021-10-13T18:00:00",
+    },
+    {
+      title:
+        "What Blockchain means for the Business Ecosystem with Mark Vangeloff, Manager - Blockchain Digital Technology Consulting and Grant Laning, Binance",
+      start: "2021-10-13T19:00:00",
     },
     {
       title: "Week 6: Tokens and NFTs",

@@ -1,7 +1,15 @@
 import React from "react";
-import { Grid, Typography, Divider, Box } from "@material-ui/core";
+import {
+  Grid,
+  Typography,
+  Divider,
+  Box,
+  Button,
+  Link,
+} from "@material-ui/core";
 
 import blockchainImage from "./blockchain.jpeg";
+import cicLogo from "./CIC_Logo.png";
 
 const CryptoCommittee = () => {
   return (
@@ -18,10 +26,27 @@ const CryptoCommittee = () => {
             First Student Run Cryptocurrency Investment Fund Launching Fall 2021
           </Typography>
           <img
-            src={blockchainImage}
+            src={cicLogo}
             style={{ width: "80%", height: "auto" }}
-            alt="Blockchain"
+            alt="CIC Logo"
           ></img>
+          <Grid item container justifyContent="center">
+            <Button
+              style={{ marginTop: 20 }}
+              variant="contained"
+              color="primary"
+              size="large"
+            >
+              <Link
+                color="inherit"
+                href="https://forms.gle/RrfwnPHTK654NB2m9"
+                rel="noopener"
+                target="_blank"
+              >
+                Apply
+              </Link>
+            </Button>
+          </Grid>
           <Divider style={{ width: "100%", marginTop: 25, marginBottom: 10 }} />
         </Grid>
         <Grid item xs={1} />

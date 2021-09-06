@@ -49,10 +49,11 @@ const Course = () => {
                 <Button variant="contained" color="primary" size="small">
                   <Link
                     color="inherit"
-                    href="mailto:stanam@miamioh.edu"
+                    href="https://forms.gle/EzKhtL65YvZWVgAz8"
                     rel="noopener"
+                    target="_blank"
                   >
-                    Get in Contact
+                    Apply
                   </Link>
                 </Button>
                 <Button variant="contained" color="primary" size="small">
