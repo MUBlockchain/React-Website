@@ -8,7 +8,6 @@ import {
   Link,
 } from "@material-ui/core";
 
-import blockchainImage from "./blockchain.jpeg";
 import cicLogo from "./CIC_Logo.png";
 
 const CryptoCommittee = () => {
