@@ -2,6 +2,7 @@
   "name": "react-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://mubc.io/",
   "repository": {
     "type": "git",
     "url": "https://github.com/MUBlockchain/React-Website"

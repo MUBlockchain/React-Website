@@ -1,13 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.956ed690.chunk.css",
-<<<<<<< HEAD
     "main.js": "/static/js/main.4c6f6eab.chunk.js",
     "main.js.map": "/static/js/main.4c6f6eab.chunk.js.map",
-=======
-    "main.js": "/static/js/main.4e051401.chunk.js",
-    "main.js.map": "/static/js/main.4e051401.chunk.js.map",
->>>>>>> a92d43cd1ccbe4349c67099feea69b04549f2f89
     "runtime-main.js": "/static/js/runtime-main.ec787b5f.js",
     "runtime-main.js.map": "/static/js/runtime-main.ec787b5f.js.map",
     "static/css/2.7d1cbf37.chunk.css": "/static/css/2.7d1cbf37.chunk.css",
@@ -20,10 +15,7 @@
     "static/media/Alex_Stan.ec776c72.jpg": "/static/media/Alex_Stan.ec776c72.jpg",
     "static/media/BEN_logo.d135c43e.png": "/static/media/BEN_logo.d135c43e.png",
     "static/media/Bhuvan_Shah.010ae7b0.jpg": "/static/media/Bhuvan_Shah.010ae7b0.jpg",
-<<<<<<< HEAD
     "static/media/CIC_Logo.5e002035.png": "/static/media/CIC_Logo.5e002035.png",
-=======
->>>>>>> a92d43cd1ccbe4349c67099feea69b04549f2f89
     "static/media/Derek_Daniels.85c57d23.jpg": "/static/media/Derek_Daniels.85c57d23.jpg",
     "static/media/EY_logo.570845ef.png": "/static/media/EY_logo.570845ef.png",
     "static/media/FSB_logo.4715e0a1.png": "/static/media/FSB_logo.4715e0a1.png",
@@ -35,10 +27,6 @@
     "static/media/Ryan_Schuerkamp.23ed52de.jpg": "/static/media/Ryan_Schuerkamp.23ed52de.jpg",
     "static/media/Sahil_Sapra.91f0948c.jpg": "/static/media/Sahil_Sapra.91f0948c.jpg",
     "static/media/Stephen_Bopst.d57ec681.jpg": "/static/media/Stephen_Bopst.d57ec681.jpg",
-<<<<<<< HEAD
-=======
-    "static/media/blockchain.d3e69a48.jpeg": "/static/media/blockchain.d3e69a48.jpeg",
->>>>>>> a92d43cd1ccbe4349c67099feea69b04549f2f89
     "static/media/coding.05b5bac5.jpg": "/static/media/coding.05b5bac5.jpg",
     "static/media/group.40777ef2.jpg": "/static/media/group.40777ef2.jpg",
     "static/media/logo.5b18a1e0.jpg": "/static/media/logo.5b18a1e0.jpg",
@@ -51,10 +39,6 @@
     "static/css/2.7d1cbf37.chunk.css",
     "static/js/2.74b7dab1.chunk.js",
     "static/css/main.956ed690.chunk.css",
-<<<<<<< HEAD
     "static/js/main.4c6f6eab.chunk.js"
-=======
-    "static/js/main.4e051401.chunk.js"
->>>>>>> a92d43cd1ccbe4349c67099feea69b04549f2f89
   ]
 }
