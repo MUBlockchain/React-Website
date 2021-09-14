@@ -8,7 +8,7 @@ import {
   Link,
 } from "@material-ui/core";
 
-import cicLogo from "./CIC_Logo.png";
+import cifLogo from "./CIF_Logo.png";
 
 const CryptoCommittee = () => {
   return (
@@ -18,14 +18,14 @@ const CryptoCommittee = () => {
         <Grid item container justifyContent="center" xs={10}>
           <Typography style={{ marginBottom: 10 }} variant="h1">
             <Box fontWeight="fontWeightBold">
-              Cryptocurrency Investment Committee
+              Cryptocurrency Investment Fund
             </Box>
           </Typography>
           <Typography variant="h3" style={{ marginBottom: 10 }}>
             First Student Run Cryptocurrency Investment Fund Launching Fall 2021
           </Typography>
           <img
-            src={cicLogo}
+            src={cifLogo}
             style={{ width: "80%", height: "auto" }}
             alt="CIC Logo"
           ></img>

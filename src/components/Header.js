@@ -75,7 +75,7 @@ const Header = (props) => {
       sectionID: "Course",
     },
     {
-      menuTitle: "Crypto Committee",
+      menuTitle: "Crypto Fund",
       sectionID: "Crypto Committee",
     },
     {
