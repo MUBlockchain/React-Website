@@ -85,8 +85,21 @@ const Calendar = (props) => {
       start: "2021-11-10T18:00:00",
     },
     {
+      title:
+        "Evan Karnoupakis - Blockchain Author and Executive Consultant at Media Shower",
+      start: "2021-11-10T19:00:00",
+    },
+    {
       title: "Week 10: Blockchain Use Cases",
       start: "2021-11-17T18:00:00",
+    },
+    {
+      title: "Polygon NFT Workshop",
+      start: "2021-11-17T19:00:00",
+    },
+    {
+      title: "Mark Murphy - Chief Operating Officer of Digital Currency Group",
+      start: "2021-12-01T18:00:00",
     },
   ];
 

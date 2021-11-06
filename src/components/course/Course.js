@@ -49,16 +49,6 @@ const Course = () => {
                 <Button variant="contained" color="primary" size="small">
                   <Link
                     color="inherit"
-                    href="https://forms.gle/EzKhtL65YvZWVgAz8"
-                    rel="noopener"
-                    target="_blank"
-                  >
-                    Apply
-                  </Link>
-                </Button>
-                <Button variant="contained" color="primary" size="small">
-                  <Link
-                    color="inherit"
                     href="https://docs.google.com/document/d/1p1JkcskOG-lpIpPxXNWcISwII0ln84-7X78q0RlIRVw/edit?usp=sharing"
                     rel="noopener"
                     target="_blank"
