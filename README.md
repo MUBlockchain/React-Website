@@ -17,7 +17,7 @@ cd React-Website/
 ```
 
 ```bash
-npm install # Need Node.js installed before running this command
+npm install # Need Node.js and npm installed before running this command
 ```
 
 ### Running
