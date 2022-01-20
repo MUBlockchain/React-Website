@@ -1,5 +1,7 @@
 # Miami University Blockchain Club Website
 
+Live at [mubc.io](https://mubc.io/)
+
 Built with React, React-Scroll, and Material-UI. Deployed using GitHub Pages.
 
 ## How to Run Locally
@@ -17,7 +19,7 @@ cd React-Website/
 ```
 
 ```bash
-npm install # Need Node.js installed before running this command
+npm install # Need Node.js and npm installed before running this command
 ```
 
 ### Running
