@@ -28,14 +28,14 @@ const Leadership = () => {
           </Typography>
           <Grid container justifyContent="center">
             <ProfileCard
-              profilePicture={alexStanPicture}
-              title="Alex Stan - President"
-              description="Alex Stan is a Senior Accountancy major in the Farmer School of Business and the current President of MUBC. Stepping up from his role as VP of Professional Development in 2020, Alex aims to expand the professional operations of the club. As President, he will be responsible for facilitating successful club events as well as connecting the club with various industry professionals and companies to further blockchain education. Alex is looking to create more buzz around MUBC events in hopes of attracting more Miami University students as well as company sponsorships."
+              profilePicture={josiahPutrichPicture}
+              title="Josiah Putrich - President"
+              description="I am currently a Junior, Finance and Data Analytics student with 4+ years of hands-on experience in portfolio management, research, and business analytics. On-campus, I am the CFO for Miami Business Consulting and a Research Analyst for the Social Impact Fund. I enjoy playing piano, lifting, and trading (stocks and crypto). More recently, I have become very interested in blockchain technology because I believe it will be one of the largest catalysts for both social and economic development going forward. I am especially interested in DeFi and how we can enable people to take control of their personal finances."
             />
             <ProfileCard
-              profilePicture={josiahPutrichPicture}
-              title="Josiah Putrich - Executive VP"
-              description="I am currently a Junior, Finance and Data Analytics student with 4+ years of hands-on experience in portfolio management, research, and business analytics. On-campus, I am the CFO for Miami Business Consulting and a Research Analyst for the Social Impact Fund. I enjoy playing piano, lifting, and trading (stocks and crypto). More recently, I have become very interested in blockchain technology because I believe it will be one of the largest catalysts for both social and economic development going forward. I am especially interested in DeFi and how we can enable people to take control of their personal finances."
+              profilePicture={alexStanPicture}
+              title="Alex Stan - Strategic Advisor"
+              description="Alex Stan is a Senior Accountancy major in the Farmer School of Business and the current President of MUBC. Stepping up from his role as VP of Professional Development in 2020, Alex aims to expand the professional operations of the club. As President, he will be responsible for facilitating successful club events as well as connecting the club with various industry professionals and companies to further blockchain education. Alex is looking to create more buzz around MUBC events in hopes of attracting more Miami University students as well as company sponsorships."
             />
             <ProfileCard
               profilePicture={ryanSchuerkampPicture}
@@ -90,7 +90,7 @@ const Leadership = () => {
             <ProfileCard
               profilePicture={zacSwinneyPicture}
               title="Zac Swinney – VP of Finance"
-              description="I am currently a Freshman History major and will be switching to Information Systems and Analytics with a minor in Computer Software Engineering at the beginning of my Sophomore year. I enjoy lifting, video games, guitart, and cryptocurrency. I have a strong passion for this club's success and cryptocurrencies as a whole. My goals include bringing awareness to the MUBC and continuing the development of the MUBC101 course."
+              description="I am currently a Freshman History major and will be switching to Information Systems and Analytics with a minor in Computer Software Engineering at the beginning of my Sophomore year. I enjoy lifting, video games, guitar, and cryptocurrency. I have a strong passion for this club's success and cryptocurrencies as a whole. My goals include bringing awareness to the MUBC and continuing the development of the MUBC101 course."
             />
             <ProfileCard
               profilePicture={konradLesheimPicture}
