@@ -79,7 +79,7 @@ const Leadership = () => {
             />
             <ProfileCard
               profilePicture={davisSellPicture}
-              title="Davis Sell – "
+              title="Davis Sell – VP of Analytics"
               description="Davis Sell is a senior Information Systems & Analytics major. His background in engineering and economics drive a data-driven and technologically focused business mindset. Mr. Sell loves both technology and investing, driving his passion for cryptocurrency and the blockchain. On campus Mr. Sell is the Women's head lacrosse coach as well as holding a position in the Makerspace, where he aids students in 3D printing, laser cutting, VR, and software. In his free time, Mr. Sell enjoys skiing, traveling, and gambling. After he graduates, Mr. Sell is set to work on artificial intelligence at McDonald's."
             />
             <ProfileCard
@@ -89,7 +89,7 @@ const Leadership = () => {
             />
             <ProfileCard
               profilePicture={zacSwinneyPicture}
-              title="Zac Swinney – "
+              title="Zac Swinney – VP of Finance"
               description="I am currently a Freshman History major and will be switching to Information Systems and Analytics with a minor in Computer Software Engineering at the beginning of my Sophomore year. I enjoy lifting, video games, guitart, and cryptocurrency. I have a strong passion for this club's success and cryptocurrencies as a whole. My goals include bringing awareness to the MUBC and continuing the development of the MUBC101 course."
             />
             <ProfileCard
