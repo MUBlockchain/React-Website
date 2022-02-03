@@ -10,96 +10,70 @@ const Calendar = (props) => {
   const { darkMode } = props;
   const events = [
     {
-      title: "MegaFair",
-      start: "2021-08-29",
+      title: "MUBC 101 Blockchain basics",
+      start: "2022-02-16T18:00:00",
     },
     {
-      title: "Meet the B-Orgs",
-      start: "2021-08-31T18:00:00",
+      title: "Polygon How to Build a dApp Workshop",
+      start: "2022-02-22T19:00:00",
     },
     {
-      title: "Info Night",
-      start: "2021-09-08T18:30:00",
-    },
-    {
-      title:
-        "Are NFTs the Next Tulip Mania? with Patrick Young, Account Executive at ChainLink Labs",
-      start: "2021-09-08T19:00:00",
-      url: "https://drive.google.com/file/d/1qesjC5bmgq0_VSpbaX2lT4aKrTCSu-C8/view?usp=sharing",
+      title: "MUBC 101 Blockchain Networks",
+      start: "2022-02-23T18:00:00",
     },
     {
       title:
-        "Regulatory and Cryptocurrency Tax Policy with Congressman Warren Davidson",
-      start: "2021-09-14T18:00:00",
-      url: "https://drive.google.com/file/d/1P1Fvmabg2WuFWSjqxUC1ZxJvDqkzppZL/view?usp=sharing",
+        "Institutional Crypto Sales & Trading with Hanson Birringer - Associate @GenesisTrading: Institutional Sales",
+      start: "2022-02-23T19:00:00",
     },
     {
-      title: "Course Week 1: Blockchain basics",
-      start: "2021-09-15T18:00:00",
+      title: "MUBC 101 Blockchain Security",
+      start: "2022-03-02T18:00:00",
     },
     {
-      title: "Week 2: Blockchain Networks",
-      start: "2021-09-22T18:00:00",
+      title: "MUBC 101 Smart Contracts",
+      start: "2022-03-09T18:00:00",
     },
     {
-      title:
-        "The Institutional Risks of Managing Digital Assets with Bennett Moore, Blockchain and Digital Assets Senior Innovation Architect/Manager at RSM",
-      start: "2021-09-22T19:00:00",
+      title: "An Introduction to Crypto Lending and Borrowing with Celsius",
+      start: "2022-03-09T19:00:00",
     },
     {
-      title: "Week 3: Blockchain Security",
-      start: "2021-09-29T18:00:00",
-    },
-    {
-      title:
-        "Bitcoin vs Ethereum: An origin story with Andrew Marquardt, Senior Analyst at Accenture",
-      start: "2021-09-29T19:00:00",
-    },
-    {
-      title: "Week 4: Smart Contracts",
-      start: "2021-10-06T18:00:00",
-    },
-    {
-      title: "Week 5: Decentralized Autonomous Organizations and Governance",
-      start: "2021-10-13T18:00:00",
+      title: "MUBC 101 Decentralized Autonomous Organizations and Governance",
+      start: "2022-03-16T18:00:00",
     },
     {
       title:
-        "What Blockchain means for the Business Ecosystem with Mark Vangeloff, Manager - Blockchain Digital Technology Consulting and Grant Laning, Binance",
-      start: "2021-10-13T19:00:00",
+        "Fireside Chat w/ Mark Cialone - Chief of Staff to the CEO at Coinbase",
+      start: "2022-03-16T19:00:00",
     },
     {
-      title: "Week 6: Tokens and NFTs",
-      start: "2021-10-20T18:00:00",
+      title: "MUBC 101 Token Economics",
+      start: "2022-03-30T18:00:00",
     },
     {
-      title: "Week 7: Token Economics",
-      start: "2021-10-27T18:00:00",
+      title: "Ripple Intro to Governance",
+      start: "2022-03-30T19:00:00",
     },
     {
-      title: "Week 8: Bitcoin, Ethereum, Altcoins, and Stablecoins",
-      start: "2021-11-03T18:00:00",
+      title: "Virtual Roundtable with Congresman Anthony Gonzalez",
+      start: "2022-04-01T15:00:00",
     },
     {
-      title: "Week 9: Decentralized Finance (Defi)",
-      start: "2021-11-10T18:00:00",
+      title: "MUBC 101 NFTs/Metaverse",
+      start: "2022-04-06T18:00:00",
     },
     {
-      title:
-        "Evan Karnoupakis - Blockchain Author and Executive Consultant at Media Shower",
-      start: "2021-11-10T19:00:00",
+      title: "MUBC 101 Bitcoin, Ethemeum, Altcoins, and Stablecoins",
+      start: "2022-04-13T18:00:00",
     },
     {
-      title: "Week 10: Blockchain Use Cases",
-      start: "2021-11-17T18:00:00",
+      title: "MUBC 101 Decentralized Finance (Defi)",
+      start: "2022-04-20T18:00:00",
     },
     {
-      title: "Polygon NFT Workshop",
-      start: "2021-11-17T19:00:00",
-    },
-    {
-      title: "Mark Murphy - Chief Operating Officer of Digital Currency Group",
-      start: "2021-12-01T18:00:00",
+      title: "MUBC 101 L2s and Use Cases",
+      start: "2022-04-27T18:00:00",
     },
   ];
 

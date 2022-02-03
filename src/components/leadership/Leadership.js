@@ -30,12 +30,12 @@ const Leadership = () => {
             <ProfileCard
               profilePicture={josiahPutrichPicture}
               title="Josiah Putrich - President"
-              description="I am currently a Junior, Finance and Data Analytics student with 4+ years of hands-on experience in portfolio management, research, and business analytics. On-campus, I am the CFO for Miami Business Consulting and a Research Analyst for the Social Impact Fund. I enjoy playing piano, lifting, and trading (stocks and crypto). More recently, I have become very interested in blockchain technology because I believe it will be one of the largest catalysts for both social and economic development going forward. I am especially interested in DeFi and how we can enable people to take control of their personal finances."
+              description="Josiah Putrich is a Senior Finance major and the current president of MUBC. As former Executive VP in 2021, he is taking this role of leadership to explore new opportunities for the club’s professional development. He aims to encourage both fundamental and specific understanding of blockchain applications through MUBC's weekly course sessions and the digital asset fund's newly establish L1, L2, Defi, and NFT divisions. As president, Josiah is responsible for structuring the MUBC 101 course, connecting the club with industry professionals, and facilitating organizational events."
             />
             <ProfileCard
               profilePicture={alexStanPicture}
               title="Alex Stan - Strategic Advisor"
-              description="Alex Stan is a Senior Accountancy major in the Farmer School of Business and the current President of MUBC. Stepping up from his role as VP of Professional Development in 2020, Alex aims to expand the professional operations of the club. As President, he will be responsible for facilitating successful club events as well as connecting the club with various industry professionals and companies to further blockchain education. Alex is looking to create more buzz around MUBC events in hopes of attracting more Miami University students as well as company sponsorships."
+              description="Alex Stan is a Senior Accountancy major in the Farmer School of Business and former president and now strategic advisor of MUBC. Alex aims to expand the professional operations of the club. He will be responsible for facilitating successful club events as well as connecting the club with various industry professionals and companies to further blockchain education. Alex is looking to create more buzz around MUBC events in hopes of attracting more Miami University students as well as company sponsorships."
             />
             <ProfileCard
               profilePicture={ryanSchuerkampPicture}
