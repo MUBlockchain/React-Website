@@ -8,8 +8,6 @@ import {
   Link,
 } from "@material-ui/core";
 
-import rdafLogo from "./RDAF_Logo.jpg";
-
 const CryptoCommittee = () => {
   return (
     <div id="Crypto Committee">
@@ -35,11 +33,6 @@ const CryptoCommittee = () => {
             the global distribution of wealth and information by creating more
             efficient and ethical transactional environments.
           </Typography>
-          <img
-            src={rdafLogo}
-            style={{ width: "80%", height: "auto" }}
-            alt="RDAF Logo"
-          ></img>
           <Grid item container justifyContent="center">
             <Button
               style={{ marginTop: 20 }}
