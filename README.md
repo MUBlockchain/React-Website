@@ -31,3 +31,13 @@ npm start
 ```
 
 Your browser should automatically open the application.
+
+### Deploy
+
+To deploy to GitHub Pages run
+
+```bash
+npm run deploy
+```
+
+Then add, commit, and push your changes to this repository. 
