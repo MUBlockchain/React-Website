@@ -28,14 +28,14 @@ const Leadership = () => {
           </Typography>
           <Grid container justifyContent="center">
             <ProfileCard
-              profilePicture={josiahPutrichPicture}
-              title="Josiah Putrich - President"
-              description="Josiah Putrich is a Senior Finance major and the current president of MUBC. As former Executive VP in 2021, he is taking this role of leadership to explore new opportunities for the club’s professional development. He aims to encourage both fundamental and specific understanding of blockchain applications through MUBC's weekly course sessions and the digital asset fund's newly establish L1, L2, Defi, and NFT divisions. As president, Josiah is responsible for structuring the MUBC 101 course, connecting the club with industry professionals, and facilitating organizational events."
+              profilePicture={adamSwabPicture}
+              title="Adam Swab - President"
+              description="Adam Swab is a Finance Major from Cleveland Ohio and currently the President of MUBC. Dove head first into the blockchain and cryptocurrency space starting in 2016 with cloud mining, and in 2020 build a large scale mining operation and company, CryptoByte, that he still operates today. Adam focuses his research and involvement in DeFi and tokenomics. Adam loves to analyze and develop projects by means of innovative Tokenomics and protocol mechanics. He joined MUBC and the RDAF in 2021 and look forward to growing the clubs outreach, philanthropy, and education of our members. In his free time Adam enjoys biking, exploring the forest, and sitting around the fire with good company."
             />
             <ProfileCard
-              profilePicture={alexStanPicture}
-              title="Alex Stan - Strategic Advisor"
-              description="Alex Stan is a Senior Accountancy major in the Farmer School of Business and former president and now strategic advisor of MUBC. Alex aims to expand the professional operations of the club. He will be responsible for facilitating successful club events as well as connecting the club with various industry professionals and companies to further blockchain education. Alex is looking to create more buzz around MUBC events in hopes of attracting more Miami University students as well as company sponsorships."
+              profilePicture={nickDiSistoPicture}
+              title="Nick DiSisto - Executive Vice President"
+              description="Nick DiSisto is a junior majoring in Robotics Engineering and Computer Science. He currently serves as the Executive VP for MUBC and the RDAF. His past experiences with Cryptocurrency Mining led him to better understand the blockchain space as a whole. He later Co-founded CryptoByte a cryptocurrency mining company in 2021. He hopes his experience and crypto knowledge will help make him a valuable asset and inspire and intrigue others to join the growing blockchain community."
             />
             <ProfileCard
               profilePicture={ryanSchuerkampPicture}
