@@ -5,7 +5,6 @@ import ProfileCard from "./ProfileCard";
 import calebAndersonPicture from "./images/Caleb_Anderson.jpeg";
 import elliotNguyenPicture from "./images/Elliot_Nguyen.JPG";
 import oliverOlberdingPicture from "./images/Oliver_Olberding.jpg";
-import zacSwinneyPicture from "./images/Zac_Swinney.jpg";
 import edThomasPicture from "./images/Ed_Thomas.jpg";
 import jackManganPicture from "./images/Jack_Mangan.jpeg";
 import adamSwabPicture from "./images/Adam_Swab.jpg";
