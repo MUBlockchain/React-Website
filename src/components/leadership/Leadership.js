@@ -70,6 +70,7 @@ const Leadership = () => {
               profilePicture={edThomasPicture}
               title="Ed Thomas – VP of Finance"
               description="Ed Thomas is a Sophomore Finance major in the Farmer School of Business. Ed's first interaction with blockchain technology was when he started participating in Ethereum gas wars in the summer of 2021. Since then he has participated in dozens of gas wars and has published educational content on the topic. Ed is most interested in the tokenization of physical assets and how blockchain is revolutionizing charity."
+            />
             <Divider
               style={{ width: "100%", marginTop: 25, marginBottom: 10 }}
             />
