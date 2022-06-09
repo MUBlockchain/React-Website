@@ -39,12 +39,13 @@ const Leadership = () => {
             <ProfileCard
               profilePicture={oliverOlberdingPicture}
               title="Oliver Olberding - VP of External Relations"
-              description="Oliver Olberding is a rising Junior Finance Major from Oxford, England. He grew up in Cincinnati, Ohio. He is the VP of External Relations and Strategic Advisor for MUBC. He got into the blockchain space in 2017 with investments in Ethereum and a few other small projects. Within the past 6 months and joining the club, He has delved into various interests including technology behind blockchain, DeFi, regulation in crypto, NFT's, and continue to learn about all aspects that blockchain entails. He is very passionate about crypto and the value that blockchain technology can bring to other industries upon adoption. Oliver joined the club and the fund to learn more about the fundamentals and complexities involved in blockchain and its applications to crypto and beyond. In his free time, he likes to travel, workout, read, run, try new things, and keep an open mind to all new learning opportunities. Oliver looks forward to innovating the club and the fund to new heights to gain exposure, credibility, and ultimately connect our brilliant minds with leaders in the crypto space!"
+              description="Oliver Olberding is a rising Junior Finance Major from Oxford, England. He grew up in Cincinnati, Ohio. He is the VP of External Relations and Strategic Advisor for MUBC. He got into the blockchain space in 2017 with investments in Ethereum and a few other small projects. Within the past 6 months and joining the club, He has delved into various interests including technology behind blockchain, DeFi, regulation in crypto, NFT's, and continue to learn about all aspects that blockchain entails. Oliver joined the club and the fund to learn more about the fundamentals and complexities involved in blockchain and its applications to crypto and beyond. Oliver looks forward to innovating the club and the fund to new heights to gain exposure, credibility, and ultimately connect our brilliant minds with leaders in the crypto space! 
+"
             />
             <ProfileCard
               profilePicture={saakethPakanatiPicture}
               title="Saaketh Pakanati - VP of Information Systems"
-              description="Saaketh is a rising senior at Miami University studying computer science and finance. His journey with crypto started in 2016 through video games. He is currently working as a data science intern focusing on monetization at Riot. Currently, he is working on a crypto algorithm that generates alpha based on lead lag. His other passions include basketball, reading, and hiking."
+              description="Saaketh Pakanati is a rising senior at Miami University studying computer science and finance. His journey with crypto started in 2016 through video games. He is currently working as a data science intern focusing on monetization at Riot. Currently, he is working on a crypto algorithm that generates alpha based on lead lag. His other passions include basketball, reading, and hiking."
             />
             <ProfileCard
               profilePicture={calebAndersonPicture}
@@ -54,12 +55,12 @@ const Leadership = () => {
             <ProfileCard
               profilePicture={zacSwinneyPicture}
               title="Zac Swinney - VP of Membership"
-              description="Zac is a sophomore at Miami University majoring in history. He got into cryptocurrency in late 2019 but refined my knowledge starting in the middle of 2021. Zac is currently an intern for UpNow Crypto doing research on a variety of topics related to cryptocurrency. He has a passion for cryptocurrency, history, and music.  "
+              description="Zac Swinney is a sophomore at Miami University majoring in history. He got into cryptocurrency in late 2019 but refined my knowledge starting in the middle of 2021. Zac is currently an intern for UpNow Crypto doing research on a variety of topics related to cryptocurrency. He has a passion for cryptocurrency, history, and music.  "
             />
             <ProfileCard
               profilePicture={elliotNguyenPicture}
               title="Elliot Nguyen - VP of Education"
-              description="Elliot is a Junior Finance major in the Farmer School of Business from Hanoi, Vietnam. He knew about Bitcoin since its inception in '09 but his exposure to crypto only started recently by joining MUBC and RDAF. Investing is Elliot's main interest with crypto. Besides that, his personal interests include Formula 1, technology, audiophile, and art."
+              description="Elliot Nguyen is a Junior Finance major in the Farmer School of Business from Hanoi, Vietnam. He knew about Bitcoin since its inception in '09 but his exposure to crypto only started recently by joining MUBC and RDAF. Investing is Elliot's main interest with crypto. Besides that, his personal interests include Formula 1, technology, audiophile, and art."
             />
             <ProfileCard
               profilePicture={jackManganPicture}
