@@ -2,15 +2,15 @@ import React from "react";
 import { Typography, Grid, Divider, Box } from "@material-ui/core";
 
 import ProfileCard from "./ProfileCard";
-import alexStanPicture from "./images/Alex_Stan.jpg";
-import josiahPutrichPicture from "./images/Josiah_Putrich.jpg";
-import ryanSchuerkampPicture from "./images/Ryan_Schuerkamp.jpg";
-import madisynErbesPicture from "./images/Madisyn_Erbes.jpg";
-import derekDanielsPicture from "./images/Derek_Daniels.jpg";
-import sahilSapraPicture from "./images/Sahil_Sapra.jpg";
+import calebAndersonPicture from "./images/Caleb_Anderson.jpeg";
+import elliotNguyenPicture from "./images/Elliot_Nguyen.JPG";
+import oliverOlberdingPicture from "./images/Oliver_Olberding.jpg";
+import zacSwinneyPicture from "./images/Zac_Swinney.jpg";
+import edThomasPicture from "./images/Ed_Thomas.jpg";
+import jackManganPicture from "./images/Jack_Mangan.jpeg";
 import adamSwabPicture from "./images/Adam_Swab.jpg";
 import nickDiSistoPicture from "./images/Nick_DiSisto.jpg";
-import michaelWisneskiPicture from "./images/Michael_Wisneski.jpg";
+import saakethPakanatiPicture from "./images/Saaketh_Pakanati.png";
 import stewartApplePicture from "./images/Stewart_Apple.jpg";
 import davisSellPicture from "./images/Davis_Sell.jpg";
 import brettHussleinPicture from "./images/Brett_Husslein.jpg";
@@ -38,65 +38,39 @@ const Leadership = () => {
               description="Nick DiSisto is a junior majoring in Robotics Engineering and Computer Science. He currently serves as the Executive VP for MUBC and the RDAF. His past experiences with Cryptocurrency Mining led him to better understand the blockchain space as a whole. He later Co-founded CryptoByte a cryptocurrency mining company in 2021. He hopes his experience and crypto knowledge will help make him a valuable asset and inspire and intrigue others to join the growing blockchain community."
             />
             <ProfileCard
-              profilePicture={ryanSchuerkampPicture}
-              title="Ryan Scheurkamp - VP of Projects"
-              description="Ryan Schuerkamp is a sophomore pursuing a B.S. and M.S. in Computer Science and a B.S. in Data Science and Statistics. He is involved in computer science research focusing on modeling complex social systems. Also, he is implementing a blockchain-based forecast system as a part of a blockchain research project. He is also involved in Redhawk Ventures, a student-run venture capital fund. Ryan is interested in learning more about machine learning, blockchain, and quantitative finance."
+              profilePicture={oliverOlberdingPicture}
+              title="Oliver Olberding - VP of External Relations"
+              description="Oliver Olberding is a rising Junior Finance Major from Oxford, England. He grew up in Cincinnati, Ohio. He is the VP of External Relations and Strategic Advisor for MUBC. He got into the blockchain space in 2017 with investments in Ethereum and a few other small projects. Within the past 6 months and joining the club, He has delved into various interests including technology behind blockchain, DeFi, regulation in crypto, NFT's, and continue to learn about all aspects that blockchain entails. He is very passionate about crypto and the value that blockchain technology can bring to other industries upon adoption. Oliver joined the club and the fund to learn more about the fundamentals and complexities involved in blockchain and its applications to crypto and beyond. In his free time, he likes to travel, workout, read, run, try new things, and keep an open mind to all new learning opportunities. Oliver looks forward to innovating the club and the fund to new heights to gain exposure, credibility, and ultimately connect our brilliant minds with leaders in the crypto space!"
             />
             <ProfileCard
-              profilePicture={madisynErbesPicture}
-              title="Madisyn Erbes - VP of Communication"
-              description="Madisyn Erbes is a Senior Supply Chain Management major in the Farmer School of Business. This is her second year as VP of Marketing for MUBC and she’s excited to use her past experience as a marketing intern to help MUBC succeed. She hopes  promoting events and speaker series will gain more students interest in cryptocurrency and blockchain throughout the school year."
+              profilePicture={saakethPakanatiPicture}
+              title="Saaketh Pakanati - VP of Information Systems"
+              description="Saaketh is a rising senior at Miami University studying computer science and finance. His journey with crypto started in 2016 through video games. He is currently working as a data science intern focusing on monetization at Riot. Currently, he is working on a crypto algorithm that generates alpha based on lead lag. His other passions include basketball, reading, and hiking."
             />
             <ProfileCard
-              profilePicture={derekDanielsPicture}
-              title="Derek Daniels - VP of Investments"
-              description="Derek Daniels is currently a Senior Finance major and the VP of Investments in the MUBC. He enjoys lifting, fishing, video games, guitar, and investing in crypto, stocks, and real estate. He is passionate about learning and teaching others how to be smart with their money in order to live a happy, healthy life. Derek is a founder and current leader of the cryptocurrency investment fund. He truly believes that blockchain, and more specifically cryptocurrency, will lead the way to major positive change across the world. Through learning how to properly invest and have our money work for us, he aims to create generational wealth that will change our families lives, and the world at large for the better."
-            />
-            <ProfileCard
-              profilePicture={sahilSapraPicture}
-              title="Sahil Sapra - VP of Educational Development"
-              description="Sahil Sapra is a Junior Quantitative Economics major with a minor in Finance and Computer Science. As the VP of Educational Development, he is involved with educating students at Miami University about blockchain and its various use cases. He is very passionate about blockchain technology and shares a very positive outlook for the future of the technology. He is also one of the founding members of MUBC’s student-led cryptocurrency fund."
-            />
-            <ProfileCard
-              profilePicture={adamSwabPicture}
-              title="Adam Swab - VP of Operations"
-              description="Adam Swab is a sophomore Finance major and the current VP of Operations of MUBC. Adam is an emerging blockchain leader and entrepreneur specializing in proof of work, Decentralized Finance, and tokenomics. Adam believes that blockchain technology and digital assets will lead the way to breakthrough technological and financial advancements throughout the 21 century. Adam is also a partner and cofounder at Cryptobyte, a startup cryptocurrency mining operation. Adam looks forward to growing the club and further teaching the fundamentals of blockchain and digital assets. Adam also servers on the Business Student Advisory Council and Dean of Students Advisory Board."
-            />
-            <ProfileCard
-              profilePicture={nickDiSistoPicture}
-              title="Nick DiSisto - VP of Marketing"
-              description="Nick DiSisto is a Robotics Engineering major with a minor in Computer Science. His past experiences with Cryptocurrency Mining led him to better understand the blockchain space as a whole. He hopes his expertise in crypto knowledge will help make him a valuable asset and inspire and intrigue others to join the growing blockchain community. "
-            />
-            <ProfileCard
-              profilePicture={michaelWisneskiPicture}
-              title="Michael Wisneski – VP of Outreach"
-              description="Michael Wisneski is a sophomore, Finance focused, business student with a newly accepted role as the VP of outreach for the MUCIF. He has multiple years of both personal portfolio management experience, and market research and analytics. Michael spends his free time lifting, trading, and playing intramural sports. He hopes to make an impact by helping expand and improve the MUCIF, while developing his skills alongside it."
-            />
-            <ProfileCard
-              profilePicture={stewartApplePicture}
-              title="Stewart Apple – Head of Innovation"
-              description="Stewart Apple is an Honors College student dual-majoring in Philosophy & Economics, Head of Innovation at MUBC, Chairman of the Redhawk Digital Asset Fund, and the Founder of AI & blockchain company William Tell. Stewart has passions for emerging technology, cross-functional team leadership, pragmatic innovation, and open distributed ledger & permissionless computation."
-            />
-            <ProfileCard
-              profilePicture={davisSellPicture}
-              title="Davis Sell – VP of Analytics"
-              description="Davis Sell is a senior Information Systems & Analytics major. His background in engineering and economics drive a data-driven and technologically focused business mindset. Mr. Sell loves both technology and investing, driving his passion for cryptocurrency and the blockchain. On campus Mr. Sell is the Women's head lacrosse coach as well as holding a position in the Makerspace, where he aids students in 3D printing, laser cutting, VR, and software. In his free time, Mr. Sell enjoys skiing, traveling, and gambling. After he graduates, Mr. Sell is set to work on artificial intelligence at McDonald's."
-            />
-            <ProfileCard
-              profilePicture={brettHussleinPicture}
-              title="Brett Husslein – VP of Research"
-              description="Brett Husslein is a Senior Finance major in the Farmer School of Business and the current VP of Research. Additionally, he co-founded the Miami University Cryptocurrency Investment Fund (MUCIF) and maintains a seat on its Board of Directors to-date. With these roles, Brett aims to further solidify the capability and reputation of the MUCIF as well as enhance the education and events facilitated in the MUBC."
+              profilePicture={calebAndersonPicture}
+              title="Caleb Anderson - VP Software Dev"
+              description=" "
             />
             <ProfileCard
               profilePicture={zacSwinneyPicture}
-              title="Zac Swinney – VP of Finance"
-              description="I am currently a Freshman History major and will be switching to Information Systems and Analytics with a minor in Computer Software Engineering at the beginning of my Sophomore year. I enjoy lifting, video games, guitar, and cryptocurrency. I have a strong passion for this club's success and cryptocurrencies as a whole. My goals include bringing awareness to the MUBC and continuing the development of the MUBC101 course."
+              title="Zac Swinney - VP of Membership"
+              description="Zac is a sophomore at Miami University majoring in history. He got into cryptocurrency in late 2019 but refined my knowledge starting in the middle of 2021. Zac is currently an intern for UpNow Crypto doing research on a variety of topics related to cryptocurrency. He has a passion for cryptocurrency, history, and music.  "
             />
             <ProfileCard
-              profilePicture={konradLesheimPicture}
-              title="Konrad Lesheim – VP of Investments"
-              description="Konrad Lesheim is a Sophomore Finance Major and the VP of Investments at MUBC. In this role, he oversees digital asset research and portfolio management. He is passionate about blockchain technology and the impact it will have on the future."
+              profilePicture={elliotNguyenPicture}
+              title="Elliot Nguyen - VP of Education"
+              description="Elliot is a Junior Finance major in the Farmer School of Business from Hanoi, Vietnam. He knew about Bitcoin since its inception in '09 but his exposure to crypto only started recently by joining MUBC and RDAF. Investing is Elliot's main interest with crypto. Besides that, his personal interests include Formula 1, technology, audiophile, and art."
             />
+            <ProfileCard
+              profilePicture={jackManganPicture}
+              title="Jack Mangan - VP of Investments"
+              description="Jack Mangan is a Junior Finance Major from Chicago, Illinois. He knew about crypto for a few years, but only after joining the RDAF in the spring of 2022 has he begun to dive deep into the crypto space. His main interests within the space are Layer 2 protocols and some smaller DeFi projects. In his free time Jack enjoys hanging out with friends, playing intramural sports, and traveling."
+            />
+            <ProfileCard
+              profilePicture={edThomasPicture}
+              title="Ed Thomas – VP of Finance"
+              description="Ed Thomas is a Sophomore Finance major in the Farmer School of Business. Ed's first interaction with blockchain technology was when he started participating in Ethereum gas wars in the summer of 2021. Since then he has participated in dozens of gas wars and has published educational content on the topic. Ed is most interested in the tokenization of physical assets and how blockchain is revolutionizing charity."
             <Divider
               style={{ width: "100%", marginTop: 25, marginBottom: 10 }}
             />
