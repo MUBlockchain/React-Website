@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.956ed690.chunk.css",
-    "main.js": "/static/js/main.ce9f4f14.chunk.js",
-    "main.js.map": "/static/js/main.ce9f4f14.chunk.js.map",
+    "main.js": "/static/js/main.a3581e2a.chunk.js",
+    "main.js.map": "/static/js/main.a3581e2a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ec787b5f.js",
     "runtime-main.js.map": "/static/js/runtime-main.ec787b5f.js.map",
     "static/css/2.7d1cbf37.chunk.css": "/static/css/2.7d1cbf37.chunk.css",
@@ -13,21 +13,20 @@
     "static/css/main.956ed690.chunk.css.map": "/static/css/main.956ed690.chunk.css.map",
     "static/js/2.74b7dab1.chunk.js.LICENSE.txt": "/static/js/2.74b7dab1.chunk.js.LICENSE.txt",
     "static/media/Adam_Swab.7c98d10f.jpg": "/static/media/Adam_Swab.7c98d10f.jpg",
-    "static/media/Alex_Stan.ec776c72.jpg": "/static/media/Alex_Stan.ec776c72.jpg",
     "static/media/BEN_logo.d135c43e.png": "/static/media/BEN_logo.d135c43e.png",
-    "static/media/Brett_Husslein.f4d3f8c4.jpg": "/static/media/Brett_Husslein.f4d3f8c4.jpg",
-    "static/media/Davis_Sell.885b9ad8.jpg": "/static/media/Davis_Sell.885b9ad8.jpg",
-    "static/media/Derek_Daniels.85c57d23.jpg": "/static/media/Derek_Daniels.85c57d23.jpg",
+    "static/media/Caleb_Anderson.19e033fe.jpeg": "/static/media/Caleb_Anderson.19e033fe.jpeg",
     "static/media/EY_logo.570845ef.png": "/static/media/EY_logo.570845ef.png",
+    "static/media/Ed_Thomas.3fb0b0e0.jpg": "/static/media/Ed_Thomas.3fb0b0e0.jpg",
+    "static/media/Elliot_Nguyen.521a9ca9.JPG": "/static/media/Elliot_Nguyen.521a9ca9.JPG",
     "static/media/FSB_logo.4715e0a1.png": "/static/media/FSB_logo.4715e0a1.png",
+    "static/media/Frederick_Levins.0f2c3a4f.JPEG": "/static/media/Frederick_Levins.0f2c3a4f.JPEG",
     "static/media/GBBC_logo.02f1bef5.png": "/static/media/GBBC_logo.02f1bef5.png",
-    "static/media/Josiah_Putrich.0b1c340c.jpg": "/static/media/Josiah_Putrich.0b1c340c.jpg",
+    "static/media/Jack_Mangan.7da37cf4.jpeg": "/static/media/Jack_Mangan.7da37cf4.jpeg",
+    "static/media/Jack_Nelson.372efd69.jpeg": "/static/media/Jack_Nelson.372efd69.jpeg",
     "static/media/Konrad_Lesheim.3715d3f6.jpg": "/static/media/Konrad_Lesheim.3715d3f6.jpg",
-    "static/media/Madisyn_Erbes.d135260f.jpg": "/static/media/Madisyn_Erbes.d135260f.jpg",
-    "static/media/Michael_Wisneski.4b66acf1.jpg": "/static/media/Michael_Wisneski.4b66acf1.jpg",
     "static/media/Nick_DiSisto.60edfbf4.jpg": "/static/media/Nick_DiSisto.60edfbf4.jpg",
-    "static/media/Ryan_Schuerkamp.23ed52de.jpg": "/static/media/Ryan_Schuerkamp.23ed52de.jpg",
-    "static/media/Sahil_Sapra.91f0948c.jpg": "/static/media/Sahil_Sapra.91f0948c.jpg",
+    "static/media/Oliver_Olberding.a36c37aa.jpg": "/static/media/Oliver_Olberding.a36c37aa.jpg",
+    "static/media/Saaketh_Pakanati.dd11bdd6.png": "/static/media/Saaketh_Pakanati.dd11bdd6.png",
     "static/media/Stewart_Apple.0baa359c.jpg": "/static/media/Stewart_Apple.0baa359c.jpg",
     "static/media/Zac_Swinney.3f363037.jpg": "/static/media/Zac_Swinney.3f363037.jpg",
     "static/media/coding.05b5bac5.jpg": "/static/media/coding.05b5bac5.jpg",
@@ -42,6 +41,6 @@
     "static/css/2.7d1cbf37.chunk.css",
     "static/js/2.74b7dab1.chunk.js",
     "static/css/main.956ed690.chunk.css",
-    "static/js/main.ce9f4f14.chunk.js"
+    "static/js/main.a3581e2a.chunk.js"
   ]
 }
