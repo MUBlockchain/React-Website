@@ -10,7 +10,7 @@ import adamSwabPicture from "./images/Adam_Swab.jpg";
 import nickDiSistoPicture from "./images/Nick_DiSisto.jpg";
 import saakethPakanatiPicture from "./images/Saaketh_Pakanati.png";
 import stewartApplePicture from "./images/Stewart_Apple.jpg";
-import frederickLevinsPicture from "./images/Frederick_Levins.jpg";
+import frederickLevinsPicture from "./images/Frederick_Levins.JPEG";
 import jackNelsonPicture from "./images/Jack_Nelson.jpeg";
 import zacSwinneyPicture from "./images/Zac_Swinney.jpg";
 import konradLesheimPicture from "./images/Konrad_Lesheim.jpg";
