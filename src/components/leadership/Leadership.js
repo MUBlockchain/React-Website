@@ -1,6 +1,5 @@
 import React from "react";
 import { Typography, Grid, Divider, Box } from "@material-ui/core";
-
 import ProfileCard from "./ProfileCard";
 import calebAndersonPicture from "./images/Caleb_Anderson.jpeg";
 import elliotNguyenPicture from "./images/Elliot_Nguyen.JPG";
@@ -11,8 +10,8 @@ import adamSwabPicture from "./images/Adam_Swab.jpg";
 import nickDiSistoPicture from "./images/Nick_DiSisto.jpg";
 import saakethPakanatiPicture from "./images/Saaketh_Pakanati.png";
 import stewartApplePicture from "./images/Stewart_Apple.jpg";
-import davisSellPicture from "./images/Davis_Sell.jpg";
-import brettHussleinPicture from "./images/Brett_Husslein.jpg";
+import frederickLevinsPicture from "./images/Frederick_Levins.heic";
+import jackNelsonPicture from "./images/Jack_Nelson.jpeg";
 import zacSwinneyPicture from "./images/Zac_Swinney.jpg";
 import konradLesheimPicture from "./images/Konrad_Lesheim.jpg";
 
@@ -39,8 +38,7 @@ const Leadership = () => {
             <ProfileCard
               profilePicture={oliverOlberdingPicture}
               title="Oliver Olberding - VP of External Relations"
-              description="Oliver Olberding is a rising Junior Finance Major from Oxford, England. He grew up in Cincinnati, Ohio. He is the VP of External Relations and Strategic Advisor for MUBC. He got into the blockchain space in 2017 with investments in Ethereum and a few other small projects. Within the past 6 months and joining the club, He has delved into various interests including technology behind blockchain, DeFi, regulation in crypto, NFT's, and continue to learn about all aspects that blockchain entails. Oliver joined the club and the fund to learn more about the fundamentals and complexities involved in blockchain and its applications to crypto and beyond. Oliver looks forward to innovating the club and the fund to new heights to gain exposure, credibility, and ultimately connect our brilliant minds with leaders in the crypto space! 
-"
+              description="Oliver Olberding is a rising Junior Finance Major from Oxford, England. He grew up in Cincinnati, Ohio. He is the VP of External Relations and Strategic Advisor for MUBC. He got into the blockchain space in 2017 with investments in Ethereum and a few other small projects. Within the past 6 months and joining the club, He has delved into various interests including technology behind blockchain, DeFi, regulation in crypto, NFT's, and continue to learn about all aspects that blockchain entails. Oliver joined the club and the fund to learn more about the fundamentals and complexities involved in blockchain and its applications to crypto and beyond. Oliver looks forward to innovating the club and the fund to new heights to gain exposure, credibility, and ultimately connect our brilliant minds with leaders in the crypto space!"
             />
             <ProfileCard
               profilePicture={saakethPakanatiPicture}
@@ -50,8 +48,18 @@ const Leadership = () => {
             <ProfileCard
               profilePicture={calebAndersonPicture}
               title="Caleb Anderson - VP Software Dev"
-              description=" "
+              description="Caleb Anderson is a senior, studying Computer Science at Miami University. He has a strong passion for Web3 and the technologies behind it. In his own words, “Web3 is giving power back to consumers in a way we have never seen before.” He enjoys creating algorithmic strategies within the cryptocurrency and DeFi space, with this passion leading him to build out an automated token audit. He also has an interest in becoming a full stack Web3 developer. While Caleb isn’t working he likes fishing, cooking, and riding his bike."
             />
+            <ProfileCard
+              profilePicture={frederickLevinsPicture}
+              title="Frederick Levins - VP of Marketing"
+              description="Frederick Levins, robotics engineer with a focus in intelligent systems from the suburbs of Chicago. By trade and passion a Java developer, interested in cryptocurrency tokenomics, smart contract optimization, systems development, and community management. Always interested in and looking for the best and most useful technology to innovate and push forward humanity. Other interests include financial engineering, cyber security development, and outdoor adventures."
+            />  
+            <ProfileCard
+              profilePicture={jackNelsonPicture}
+              title="Jack Nelson - VP of Research"
+              description="Jack Nelson is a Junior Finance major in the Farmer School of Business and the current VP of Research. Jack joined the MU Blockchain Club and RDAF in the Fall of 2021, and is currently interning for crypto research firm Defy Trends. His passion for both blockchain and leadership has led him into this position, and Jack plans to continue building the MUBC through speaker events, blockchain education, and helping members produce professional research reports. Jack’s vision for the MUBC and RDAF is to become a gateway for students looking to pursue a career in the crypto space. Other passions include golf, kayaking, and traveling."
+            /> 
             <ProfileCard
               profilePicture={zacSwinneyPicture}
               title="Zac Swinney - VP of Membership"
