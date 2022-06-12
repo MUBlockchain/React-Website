@@ -18,8 +18,7 @@ const CryptoCommittee = () => {
             <Box fontWeight="fontWeightBold">Redhawk Digital Asset Fund</Box>
           </Typography>
           <Typography variant="h3" style={{ marginBottom: 10 }}>
-            First Student-Run Cryptocurrency Investment Fund Launching Spring
-            2022
+            First Student-Run Cryptocurrency Investment Fund 
           </Typography>
           <Typography style={{ marginBottom: 10 }} variant="h3">
             <Box fontWeight="fontWeightBold">About</Box>
