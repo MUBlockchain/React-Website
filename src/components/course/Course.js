@@ -40,7 +40,7 @@ const Course = () => {
           </Typography>
           <Typography style={{ marginBottom: 10 }} variant="h3">
             Introduction to Blockchain Technology, Cryptocurrencies and Web3
-            Fall 2021
+            Fall 2022
           </Typography>
           <CourseCard
             title="Logistics"
