@@ -75,6 +75,58 @@ const Calendar = (props) => {
       title: "MUBC 101 L2s and Use Cases",
       start: "2022-04-27T18:00:00",
     },
+    {
+      title: "MUBC 101 Blockchain 101",
+      start:"2022-09-07T18:00:00"
+    },
+    {
+      title: "MUBC 101 Blockchain Network",
+      start:"2022-09-14T18:00:00"
+    },
+    {
+      title: "MUBC 101 Decentralized Finance: DeFi Dad",
+      start:"2022-09-21T18:00:00"
+    },
+    {
+      title: "MUBC 101 Smart Contracts",
+      start:"2022-09-28T18:00:00"
+    },
+    {
+      title: "MUBC 101 DAO and Governance",
+      start:"2022-10-05T18:00:00"
+    },
+    {
+      title: "MUBC 101 Security/Infrastructure: Blockdaemon",
+      start:"2022-10-12T18:00:00"
+    },
+    {
+      title: "MUBC 101 Web3 Development: Ryan Strawser",
+      start:"2022-11-02T18:00:00"
+    },
+    {
+      title: "MUBC 101 Tokenomics: Zac McKenna",
+      start:"2022-10-19T18:00:00"
+    },
+    {
+      title: "MUBC 101 Current Events in Crypto: Jason Yanowitz",
+      start:"2022-10-26T18:00:00"
+    },
+    {
+      title: "MUBC 101 On-Chain Data Analysis",
+      start:"2022-11-09T18:00:00"
+    },
+    {
+      title: "Megafair",
+      start:"2022-08-28T11:00:00"
+    },
+    {
+      title: "Info Night",
+      start: "2022-08-31T18:00:00"
+    },
+    {
+      title:"Meet the B Orgs",
+      start:"2022-08-30T18:00:00"
+    },
   ];
 
   const eventClick = function (info) {
