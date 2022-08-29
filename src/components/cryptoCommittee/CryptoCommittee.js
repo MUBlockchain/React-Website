@@ -41,7 +41,7 @@ const CryptoCommittee = () => {
             >
               <Link
                 color="inherit"
-                href="https://forms.gle/HY75D8C1GvxoM3wEA"
+                href="https://forms.gle/11vEm41fqQve4QtC9"
                 rel="noopener"
                 target="_blank"
               >

@@ -25,7 +25,7 @@ const Newsletter = () => {
             >
               <Link
                 color="inherit"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdQ7MVKG2Gz52gkW3MK4pVHbHaF55D7qze_5fYjkR0gznvu9Q/viewform?usp=sf_link"
+                href="https://forms.gle/ijXqtrSEFUVijjx1A"
                 rel="noopener"
                 target="_blank"
               >
