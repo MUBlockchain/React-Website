@@ -16,6 +16,8 @@ const useStyles = makeStyles((theme) => ({
     marginRight: 15,
     marginLeft: 15,
     marginBottom: 30,
+    textDecoration: "none", // Remove text decoration for the anchor tag
+    color: "inherit", // Inherit the color from the parent
   },
   profilePicture: {
     [theme.breakpoints.up("md")]: {
@@ -32,30 +34,33 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const ProfileCard = (props) => {
-  const { profilePicture, title, description } = props;
+  const { profilePicture, title, description, link } = props; 
   const classes = useStyles();
 
   return (
-    <Card raised className={classes.root}>
-      <CardActionArea>
-        <Box display="flex" justifyContent="center" alignItems="center">
-          <Avatar
-            alt={title}
-            variant="circular"
-            className={classes.profilePicture}
-            src={profilePicture}
-          />
-        </Box>
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            {title}
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            {description}
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    </Card>
+    <a href={link} target="_blank" rel="noopener noreferrer" className={classes.root}>
+      {/* Make the entire card clickable */}
+      <Card raised>
+        <CardActionArea>
+          <Box display="flex" justifyContent="center" alignItems="center">
+            <Avatar
+              alt={title}
+              variant="circular"
+              className={classes.profilePicture}
+              src={profilePicture}
+            />
+          </Box>
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="h2">
+              {title}
+            </Typography>
+            <Typography variant="body2" color="textSecondary" component="p">
+              {description}
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+    </a>
   );
 };
 

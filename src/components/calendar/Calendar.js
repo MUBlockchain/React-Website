@@ -127,6 +127,30 @@ const Calendar = (props) => {
       title:"Meet the B Orgs",
       start:"2022-08-30T18:00:00"
     },
+    {
+      title:"General Meeting",
+      start:"2023-09-26T18:00:00"
+    },
+    {
+      title:"General Meeting",
+      start:"2023-10-03T18:00:00"
+    },
+    {
+      title:"General Meeting",
+      start:"2023-10-10T18:00:00"
+    },
+    {
+      title:"General Meeting",
+      start:"2023-10-17T18:00:00"
+    },
+    {
+      title:"General Meeting",
+      start:"2023-10-24T18:00:00"
+    },
+    {
+      title:"General Meeting",
+      start:"2023-10-31T18:00:00"
+    },
   ];
 
   const eventClick = function (info) {

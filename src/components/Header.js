@@ -70,14 +70,14 @@ const Header = (props) => {
       menuTitle: "Calendar",
       sectionID: "Calendar",
     },
-    {
-      menuTitle: "Course",
-      sectionID: "Course",
-    },
-    {
-      menuTitle: "Crypto Fund",
-      sectionID: "Crypto Committee",
-    },
+    // {
+    //   menuTitle: "Course",
+    //   sectionID: "Course",
+    // },
+    // {
+    //   menuTitle: "Crypto Fund",
+    //   sectionID: "Crypto Committee",
+    // },
     {
       menuTitle: "Leadership",
       sectionID: "Leadership",

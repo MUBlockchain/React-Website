@@ -8,10 +8,10 @@ import ImageGallery from "./imageGallery/ImageGallery";
 import About from "./About";
 import Leadership from "./leadership/Leadership";
 import Affiliations from "./affiliations/Affiliations";
-import Course from "./course/Course";
+// import Course from "./course/Course";
 import Calendar from "./calendar/Calendar";
 import Newsletter from "./Newsletter";
-import CryptoCommittee from "./cryptoCommittee/CryptoCommittee";
+// import CryptoCommittee from "./cryptoCommittee/CryptoCommittee";
 import Footer from "./Footer";
 import { darkTheme, lightTheme } from "./../theme";
 
@@ -30,8 +30,8 @@ export default function App() {
             <About />
             <Affiliations />
             <Calendar darkMode={darkMode} />
-            <Course />
-            <CryptoCommittee />
+            {/* <Course /> */}
+            {/* <CryptoCommittee /> */}
             <Leadership />
             <Newsletter />
             <Footer />
